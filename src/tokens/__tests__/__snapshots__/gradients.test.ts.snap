@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gradients validation Snapshot DarkModeGradient 1`] = `
+{
+  "primary1": [
+    "hsl(200 71% 13%)",
+    "hsl(300 45% 11%)",
+  ],
+  "primary10": [
+    "hsl(196 86% 88%)",
+    "hsl(299 77% 90%)",
+  ],
+  "primary2": [
+    "hsl(198 70% 18%)",
+    "hsl(300 49% 15%)",
+  ],
+  "primary3": [
+    "hsl(197 69% 25%)",
+    "hsl(300 48% 20%)",
+  ],
+  "primary4": [
+    "hsl(201 70% 34%)",
+    "hsl(300 49% 28%)",
+  ],
+  "primary5": [
+    "hsl(201 70% 42%)",
+    "hsl(300 47% 35%)",
+  ],
+  "primary6": [
+    "hsl(202 71% 47%)",
+    "hsl(300 43% 49%)",
+  ],
+  "primary7": [
+    "hsl(200 85% 63%)",
+    "hsl(302 59% 63%)",
+  ],
+  "primary8": [
+    "hsl(199 86% 70%)",
+    "hsl(302 67% 72%)",
+  ],
+  "primary9": [
+    "hsl(198 85% 79%)",
+    "hsl(301 72% 80%)",
+  ],
+}
+`;
+
+exports[`Gradients validation Snapshot LightModeGradient 1`] = `
+{
+  "primary1": [
+    "hsl(203 85% 95%)",
+    "hsl(300 83% 95%)",
+  ],
+  "primary10": [
+    "hsl(208 79% 29%)",
+    "hsl(294 43% 22%)",
+  ],
+  "primary2": [
+    "hsl(203 85% 89%)",
+    "hsl(299 77% 90%)",
+  ],
+  "primary3": [
+    "hsl(204 85% 84%)",
+    "hsl(301 72% 80%)",
+  ],
+  "primary4": [
+    "hsl(205 85% 79%)",
+    "hsl(302 71% 71%)",
+  ],
+  "primary5": [
+    "hsl(204 84% 73%)",
+    "hsl(302 72% 62%)",
+  ],
+  "primary6": [
+    "hsl(201 84% 55%)",
+    "hsl(301 53% 55%)",
+  ],
+  "primary7": [
+    "hsl(202 71% 49%)",
+    "hsl(301 42% 49%)",
+  ],
+  "primary8": [
+    "hsl(203 72% 42%)",
+    "hsl(299 41% 40%)",
+  ],
+  "primary9": [
+    "hsl(205 75% 36%)",
+    "hsl(297 41% 31%)",
+  ],
+}
+`;
