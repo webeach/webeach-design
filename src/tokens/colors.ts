@@ -1,3 +1,5 @@
+import type { HSLValue } from '../types/common';
+
 export const DarkModeColor = {
   // Danger colors
   danger1: 'hsl(0 100% 10%)',
@@ -70,7 +72,7 @@ export const DarkModeColor = {
   warning8: 'hsl(34 89% 63%)',
   warning9: 'hsl(36 90% 72%)',
   warning10: 'hsl(37 92% 80%)',
-};
+} satisfies Record<string, HSLValue>;
 
 export const LightModeColor = {
   // Danger colors
@@ -144,10 +146,12 @@ export const LightModeColor = {
   warning8: 'hsl(37 75% 44%)',
   warning9: 'hsl(34 74% 35%)',
   warning10: 'hsl(32 72% 27%)',
-};
+} satisfies Record<string, HSLValue>;
 
 export type DarkModeColorType = Readonly<typeof DarkModeColor>;
 export type DarkModeColorKey = keyof DarkModeColorType;
 
 export type LightModeColorType = Readonly<typeof LightModeColor>;
 export type LightModeColorKey = keyof LightModeColorType;
+
+export type ColorKey = DarkModeColorKey | LightModeColorKey;

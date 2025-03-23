@@ -7,19 +7,9 @@ export { BorderSize, Rounding, Size, Spacing } from './tokens/sizes';
 
 export { Typography } from './tokens/typography';
 
-export type {
-  DarkModeColorKey,
-  DarkModeColorType,
-  LightModeColorKey,
-  LightModeColorType,
-} from './tokens/colors';
+export type { ColorKey } from './tokens/colors';
 
-export type {
-  DarkModeGradientKey,
-  DarkModeGradientType,
-  LightModeGradientKey,
-  LightModeGradientType,
-} from './tokens/gradients';
+export type { GradientKey } from './tokens/gradients';
 
 export type {
   BorderSizeKey,
