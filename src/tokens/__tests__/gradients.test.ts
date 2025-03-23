@@ -11,6 +11,13 @@ describe('Gradients validation', () => {
     expect(() => gradientMapSchema.parse(LightModeGradient)).not.toThrow();
   });
 
+  test('DarkModeGradient and LightModeGradient should have identical keys', () => {
+    const darkGradientKeys = Object.keys(DarkModeGradient).sort();
+    const lightGradientKeys = Object.keys(LightModeGradient).sort();
+
+    expect(darkGradientKeys).toEqual(lightGradientKeys);
+  });
+
   test('Snapshot DarkModeGradient', () => {
     expect(DarkModeGradient).toMatchSnapshot();
   });
