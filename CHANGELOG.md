@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/webeach/webeach-design/compare/v1.1.0...v1.2.0) (2025-03-24)
+
+
+### Features
+
+* refine UI mode support and change update code font family ([ee6d9fa](https://github.com/webeach/webeach-design/commit/ee6d9fab3a62a6caf2c7eaec8ac5f0821b78d529))
+
 # [1.1.0](https://github.com/webeach/webeach-design/compare/v1.0.0...v1.1.0) (2025-03-23)
 
 
