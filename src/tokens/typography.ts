@@ -1,6 +1,6 @@
 export const FontFamily = {
   primary: '"Roboto", sans-serif',
-  monospace: '"Menlo", monospace',
+  monospace: '"Roboto Mono", monospace',
 } as const;
 
 export const FontSize = {
@@ -30,7 +30,7 @@ export const LineHeight = {
 
 export const Typography = {
   H1: {
-    // Roboto 32px/40px 500
+    // "Roboto" 32px/40px 500
     medium: {
       fontFamily: FontFamily.primary,
       fontSize: FontSize.extraExtraExtraLarge,
@@ -39,7 +39,7 @@ export const Typography = {
     },
   },
   H2: {
-    // Roboto 24px/30px 500
+    // "Roboto" 24px/30px 500
     medium: {
       fontFamily: FontFamily.primary,
       fontSize: FontSize.extraExtraLarge,
@@ -48,14 +48,14 @@ export const Typography = {
     },
   },
   H3: {
-    // Roboto 20px/24px 400
+    // "Roboto" 20px/24px 400
     regular: {
       fontFamily: FontFamily.primary,
       fontSize: FontSize.extraLarge,
       fontWeight: FontWeight.regular,
       lineHeight: LineHeight.normal,
     },
-    // Roboto 20px/24px 500
+    // "Roboto" 20px/24px 500
     medium: {
       fontFamily: FontFamily.primary,
       fontSize: FontSize.extraLarge,
@@ -64,14 +64,14 @@ export const Typography = {
     },
   },
   H4: {
-    // Roboto 18px/24px 400
+    // "Roboto" 18px/24px 400
     regular: {
       fontFamily: FontFamily.primary,
       fontSize: FontSize.large,
       fontWeight: FontWeight.regular,
       lineHeight: LineHeight.normal,
     },
-    // Roboto 18px/24px 500
+    // "Roboto" 18px/24px 500
     medium: {
       fontFamily: FontFamily.primary,
       fontSize: FontSize.large,
@@ -87,14 +87,14 @@ export const Typography = {
       fontWeight: FontWeight.regular,
       lineHeight: LineHeight.normal,
     },
-    // Roboto 16px/24px 500
+    // "Roboto" 16px/24px 500
     medium: {
       fontFamily: FontFamily.primary,
       fontSize: FontSize.medium,
       fontWeight: FontWeight.medium,
       lineHeight: LineHeight.normal,
     },
-    // Roboto 16px/24px 700
+    // "Roboto" 16px/24px 700
     bold: {
       fontFamily: FontFamily.primary,
       fontSize: FontSize.medium,
@@ -104,14 +104,14 @@ export const Typography = {
   },
   Body: {
     extraSmall: {
-      // Roboto 12px/26px 400
+      // "Roboto" 12px/26px 400
       regular: {
         fontFamily: FontFamily.primary,
         fontSize: FontSize.extraSmall,
         fontWeight: FontWeight.regular,
         lineHeight: LineHeight.compact,
       },
-      // Roboto 12px/26px 500
+      // "Roboto" 12px/26px 500
       medium: {
         fontFamily: FontFamily.primary,
         fontSize: FontSize.extraSmall,
@@ -120,21 +120,21 @@ export const Typography = {
       },
     },
     small: {
-      // Roboto 14px/22px 400
+      // "Roboto" 14px/22px 400
       regular: {
         fontFamily: FontFamily.primary,
         fontSize: FontSize.small,
         fontWeight: FontWeight.regular,
         lineHeight: LineHeight.dense,
       },
-      // Roboto 14px/22px 500
+      // "Roboto" 14px/22px 500
       medium: {
         fontFamily: FontFamily.primary,
         fontSize: FontSize.small,
         fontWeight: FontWeight.medium,
         lineHeight: LineHeight.dense,
       },
-      // Roboto 14px/22px 700
+      // "Roboto" 14px/22px 700
       bold: {
         fontFamily: FontFamily.primary,
         fontSize: FontSize.small,
@@ -143,21 +143,21 @@ export const Typography = {
       },
     },
     medium: {
-      // Roboto 16px/24px 400
+      // "Roboto" 16px/24px 400
       regular: {
         fontFamily: FontFamily.primary,
         fontSize: FontSize.medium,
         fontWeight: FontWeight.regular,
         lineHeight: LineHeight.normal,
       },
-      // Roboto 16px/24px 500
+      // "Roboto" 16px/24px 500
       medium: {
         fontFamily: FontFamily.primary,
         fontSize: FontSize.medium,
         fontWeight: FontWeight.medium,
         lineHeight: LineHeight.normal,
       },
-      // Roboto 16px/24px 700
+      // "Roboto" 16px/24px 700
       bold: {
         fontFamily: FontFamily.primary,
         fontSize: FontSize.medium,
@@ -167,7 +167,7 @@ export const Typography = {
     },
   },
   Code: {
-    // Menlo 14px/20px 400
+    // "Roboto Mono" 14px/20px 400
     regular: {
       fontFamily: FontFamily.monospace,
       fontSize: FontSize.small,

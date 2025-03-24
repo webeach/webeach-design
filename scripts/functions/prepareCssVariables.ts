@@ -5,7 +5,7 @@ interface Options<LinkedObject extends object> {
    * A prefix to prepend to each generated CSS variable key.
    * This is useful for grouping variables under a namespace.
    *
-   * @example "theme"
+   * @example "lm"
    */
   keyPrefix?: string;
 
@@ -54,8 +54,8 @@ interface Options<LinkedObject extends object> {
  * // => { "primary-color": "#ff0000", "secondary-color": "#00ff00" }
  *
  * @example
- * prepareCssVariables(colors, { keyPrefix: "theme" });
- * // => { "theme-primary-color": "#ff0000", "theme-secondary-color": "#00ff00" }
+ * prepareCssVariables(colors, { keyPrefix: "lm" });
+ * // => { "lm-primary-color": "#ff0000", "lm-secondary-color": "#00ff00" }
  *
  * @example
  * const linked = { altPrimary: "#ff0000", altSecondary: "#00ff00" };

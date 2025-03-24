@@ -12,7 +12,7 @@ interface Options {
 }
 
 interface VariableSection {
-  /** Optional selector to scope the CSS variables (e.g., `[data-theme="dark"]`). */
+  /** Optional selector to scope the CSS variables (e.g., `[data-ui-mode="dark"]`). */
   selector?: string;
   /** Key-value pairs representing CSS variables in kebab-case. */
   variables: VariableMap;
@@ -77,11 +77,11 @@ async function lintCss(cssBody: string): Promise<void> {
  * @example
  * await makeCssVariablesFile("styles.css", [
  *   {
- *     selector: "[data-theme='dark']",
+ *     selector: "[data-ui-mode='dark']",
  *     variables: { "primary-color": "#000", "secondary-color": "#333" },
  *   },
  *   {
- *     selector: "[data-theme='light']",
+ *     selector: "[data-ui-mode='light']",
  *     variables: { "primary-color": "#fff", "secondary-color": "#ccc" },
  *   },
  * ], { format: true });

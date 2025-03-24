@@ -1,7 +1,7 @@
-import { THEME_KEYS } from '../constants/common';
+import { MODE_TYPES } from '../constants/common';
 
 export type HSLValue =
   | `hsl(${number} ${number}% ${number}%)`
   | `hsl(${number} ${number}% ${number}% / ${number})`;
 
-export type ThemeKey = (typeof THEME_KEYS)[number];
+export type ModeTypeKey = (typeof MODE_TYPES)[number];

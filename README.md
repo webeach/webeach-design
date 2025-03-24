@@ -2,7 +2,7 @@
 
 `@webeach/design` is a unified design tokens package used across the `webeach` ecosystem, including in `@webeach/uikit`.
 
-It provides a standardized foundation for building visually consistent user interfaces with full support for both light and dark themes.
+It provides a standardized foundation for building visually consistent user interfaces with full support for both light and dark modes.
 
 ---
 
@@ -12,18 +12,18 @@ It provides a standardized foundation for building visually consistent user inte
   * [🎨 Colors](#-colors)
     * [Light Mode Colors](#light-mode-colors)
     * [Dark Mode Colors](#dark-mode-colors)
-    * [Themed Colors](#themed-colors)
+    * [Mode Colors](#mode-colors)
   * [🌈 Gradients](#-gradients)
     * [Light Mode Gradients](#light-mode-gradients)
     * [Dark Mode Gradients](#dark-mode-gradients)
-    * [Themed Gradients](#themed-gradients)
+    * [Mode Gradients](#mode-gradients)
   * [📐 Sizes](#-sizes)
     * [Base Sizes](#base-sizes)
     * [Spacing Sizes](#spacing-sizes)
     * [Roundings](#roundings)
     * [Border Sizes](#border-sizes)
   * [✍️ Typography](#-typography)
-  * [🎛️ Theming](#-theming)
+  * [🎛️ Mode Switching](#-mode-switching)
   * [💡 Examples](#-examples)
     * [Colors](#colors)
     * [Gradients](#gradients)
@@ -52,7 +52,7 @@ yarn add @webeach/design
 
 ## 🎨 Colors
 
-Each color group includes 10 shades adapted for both light and dark themes:
+Each color group includes 10 shades adapted for both light and dark modes:
 
 - **Primary** — main brand accent colors
 - **Secondary** — additional accent colors
@@ -63,261 +63,261 @@ Each color group includes 10 shades adapted for both light and dark themes:
 
 ### Light Mode Colors
 
-The table below shows the color values for the light theme:
+The table below shows the color values for the light mode:
 
 |                               Color                                |     Name     |              JS              |              CSS               |
 |:------------------------------------------------------------------:|:------------:|:----------------------------:|:------------------------------:|
-|  <img alt="" src="./assets/color-lm-neutral-1.svg" width="24px">   |  Neutral 1   |  `LightModeColor.neutral1`   |  `var(--color-lm-neutral-1)`   |
-|  <img alt="" src="./assets/color-lm-neutral-2.svg" width="24px">   |  Neutral 2   |  `LightModeColor.neutral2`   |  `var(--color-lm-neutral-2)`   |
-|  <img alt="" src="./assets/color-lm-neutral-3.svg" width="24px">   |  Neutral 3   |  `LightModeColor.neutral3`   |  `var(--color-lm-neutral-3)`   |
-|  <img alt="" src="./assets/color-lm-neutral-4.svg" width="24px">   |  Neutral 4   |  `LightModeColor.neutral4`   |  `var(--color-lm-neutral-4)`   |
-|  <img alt="" src="./assets/color-lm-neutral-5.svg" width="24px">   |  Neutral 5   |  `LightModeColor.neutral5`   |  `var(--color-lm-neutral-5)`   |
-|  <img alt="" src="./assets/color-lm-neutral-6.svg" width="24px">   |  Neutral 6   |  `LightModeColor.neutral6`   |  `var(--color-lm-neutral-6)`   |
-|  <img alt="" src="./assets/color-lm-neutral-7.svg" width="24px">   |  Neutral 7   |  `LightModeColor.neutral7`   |  `var(--color-lm-neutral-7)`   |
-|  <img alt="" src="./assets/color-lm-neutral-8.svg" width="24px">   |  Neutral 8   |  `LightModeColor.neutral8`   |  `var(--color-lm-neutral-8)`   |
-|  <img alt="" src="./assets/color-lm-neutral-9.svg" width="24px">   |  Neutral 9   |  `LightModeColor.neutral9`   |  `var(--color-lm-neutral-9)`   |
-|  <img alt="" src="./assets/color-lm-neutral-10.svg" width="24px">  |  Neutral 10  |  `LightModeColor.neutral10`  |  `var(--color-lm-neutral-10)`  |
-|  <img alt="" src="./assets/color-lm-primary-1.svg" width="24px">   |  Primary 1   |  `LightModeColor.primary1`   |  `var(--color-lm-primary-1)`   |
-|  <img alt="" src="./assets/color-lm-primary-2.svg" width="24px">   |  Primary 2   |  `LightModeColor.primary2`   |  `var(--color-lm-primary-2)`   |
-|  <img alt="" src="./assets/color-lm-primary-3.svg" width="24px">   |  Primary 3   |  `LightModeColor.primary3`   |  `var(--color-lm-primary-3)`   |
-|  <img alt="" src="./assets/color-lm-primary-4.svg" width="24px">   |  Primary 4   |  `LightModeColor.primary4`   |  `var(--color-lm-primary-4)`   |
-|  <img alt="" src="./assets/color-lm-primary-5.svg" width="24px">   |  Primary 5   |  `LightModeColor.primary5`   |  `var(--color-lm-primary-5)`   |
-|  <img alt="" src="./assets/color-lm-primary-6.svg" width="24px">   |  Primary 6   |  `LightModeColor.primary6`   |  `var(--color-lm-primary-6)`   |
-|  <img alt="" src="./assets/color-lm-primary-7.svg" width="24px">   |  Primary 7   |  `LightModeColor.primary7`   |  `var(--color-lm-primary-7)`   |
-|  <img alt="" src="./assets/color-lm-primary-8.svg" width="24px">   |  Primary 8   |  `LightModeColor.primary8`   |  `var(--color-lm-primary-8)`   |
-|  <img alt="" src="./assets/color-lm-primary-9.svg" width="24px">   |  Primary 9   |  `LightModeColor.primary9`   |  `var(--color-lm-primary-9)`   |
-|  <img alt="" src="./assets/color-lm-primary-10.svg" width="24px">  |  Primary 10  |  `LightModeColor.primary10`  |  `var(--color-lm-primary-10)`  |
-| <img alt="" src="./assets/color-lm-secondary-1.svg" width="24px">  | Secondary 1  | `LightModeColor.secondary1`  | `var(--color-lm-secondary-1)`  |
-| <img alt="" src="./assets/color-lm-secondary-2.svg" width="24px">  | Secondary 2  | `LightModeColor.secondary2`  | `var(--color-lm-secondary-2)`  |
-| <img alt="" src="./assets/color-lm-secondary-3.svg" width="24px">  | Secondary 3  | `LightModeColor.secondary3`  | `var(--color-lm-secondary-3)`  |
-| <img alt="" src="./assets/color-lm-secondary-4.svg" width="24px">  | Secondary 4  | `LightModeColor.secondary4`  | `var(--color-lm-secondary-4)`  |
-| <img alt="" src="./assets/color-lm-secondary-5.svg" width="24px">  | Secondary 5  | `LightModeColor.secondary5`  | `var(--color-lm-secondary-5)`  |
-| <img alt="" src="./assets/color-lm-secondary-6.svg" width="24px">  | Secondary 6  | `LightModeColor.secondary6`  | `var(--color-lm-secondary-6)`  |
-| <img alt="" src="./assets/color-lm-secondary-7.svg" width="24px">  | Secondary 7  | `LightModeColor.secondary7`  | `var(--color-lm-secondary-7)`  |
-| <img alt="" src="./assets/color-lm-secondary-8.svg" width="24px">  | Secondary 8  | `LightModeColor.secondary8`  | `var(--color-lm-secondary-8)`  |
-| <img alt="" src="./assets/color-lm-secondary-9.svg" width="24px">  | Secondary 9  | `LightModeColor.secondary9`  | `var(--color-lm-secondary-9)`  |
-| <img alt="" src="./assets/color-lm-secondary-10.svg" width="24px"> | Secondary 10 | `LightModeColor.secondary10` | `var(--color-lm-secondary-10)` |
-|   <img alt="" src="./assets/color-lm-danger-1.svg" width="24px">   |   Danger 1   |   `LightModeColor.danger1`   |   `var(--color-lm-danger-1)`   |
-|   <img alt="" src="./assets/color-lm-danger-2.svg" width="24px">   |   Danger 2   |   `LightModeColor.danger2`   |   `var(--color-lm-danger-2)`   |
-|   <img alt="" src="./assets/color-lm-danger-3.svg" width="24px">   |   Danger 3   |   `LightModeColor.danger3`   |   `var(--color-lm-danger-3)`   |
-|   <img alt="" src="./assets/color-lm-danger-4.svg" width="24px">   |   Danger 4   |   `LightModeColor.danger4`   |   `var(--color-lm-danger-4)`   |
-|   <img alt="" src="./assets/color-lm-danger-5.svg" width="24px">   |   Danger 5   |   `LightModeColor.danger5`   |   `var(--color-lm-danger-5)`   |
-|   <img alt="" src="./assets/color-lm-danger-6.svg" width="24px">   |   Danger 6   |   `LightModeColor.danger6`   |   `var(--color-lm-danger-6)`   |
-|   <img alt="" src="./assets/color-lm-danger-7.svg" width="24px">   |   Danger 7   |   `LightModeColor.danger7`   |   `var(--color-lm-danger-7)`   |
-|   <img alt="" src="./assets/color-lm-danger-8.svg" width="24px">   |   Danger 8   |   `LightModeColor.danger8`   |   `var(--color-lm-danger-8)`   |
-|   <img alt="" src="./assets/color-lm-danger-9.svg" width="24px">   |   Danger 9   |   `LightModeColor.danger9`   |   `var(--color-lm-danger-9)`   |
-|  <img alt="" src="./assets/color-lm-danger-10.svg" width="24px">   |  Danger 10   |  `LightModeColor.danger10`   |  `var(--color-lm-danger-10)`   |
-|  <img alt="" src="./assets/color-lm-warning-1.svg" width="24px">   |  Warning 1   |  `LightModeColor.warning1`   |  `var(--color-lm-warning-1)`   |
-|  <img alt="" src="./assets/color-lm-warning-2.svg" width="24px">   |  Warning 2   |  `LightModeColor.warning2`   |  `var(--color-lm-warning-2)`   |
-|  <img alt="" src="./assets/color-lm-warning-3.svg" width="24px">   |  Warning 3   |  `LightModeColor.warning3`   |  `var(--color-lm-warning-3)`   |
-|  <img alt="" src="./assets/color-lm-warning-4.svg" width="24px">   |  Warning 4   |  `LightModeColor.warning4`   |  `var(--color-lm-warning-4)`   |
-|  <img alt="" src="./assets/color-lm-warning-5.svg" width="24px">   |  Warning 5   |  `LightModeColor.warning5`   |  `var(--color-lm-warning-5)`   |
-|  <img alt="" src="./assets/color-lm-warning-6.svg" width="24px">   |  Warning 6   |  `LightModeColor.warning6`   |  `var(--color-lm-warning-6)`   |
-|  <img alt="" src="./assets/color-lm-warning-7.svg" width="24px">   |  Warning 7   |  `LightModeColor.warning7`   |  `var(--color-lm-warning-7)`   |
-|  <img alt="" src="./assets/color-lm-warning-8.svg" width="24px">   |  Warning 8   |  `LightModeColor.warning8`   |  `var(--color-lm-warning-8)`   |
-|  <img alt="" src="./assets/color-lm-warning-9.svg" width="24px">   |  Warning 9   |  `LightModeColor.warning9`   |  `var(--color-lm-warning-9)`   |
-|  <img alt="" src="./assets/color-lm-warning-10.svg" width="24px">  |  Warning 10  |  `LightModeColor.warning10`  |  `var(--color-lm-warning-10)`  |
-|  <img alt="" src="./assets/color-lm-success-1.svg" width="24px">   |  Success 1   |  `LightModeColor.success1`   |  `var(--color-lm-success-1)`   |
-|  <img alt="" src="./assets/color-lm-success-2.svg" width="24px">   |  Success 2   |  `LightModeColor.success2`   |  `var(--color-lm-success-2)`   |
-|  <img alt="" src="./assets/color-lm-success-3.svg" width="24px">   |  Success 3   |  `LightModeColor.success3`   |  `var(--color-lm-success-3)`   |
-|  <img alt="" src="./assets/color-lm-success-4.svg" width="24px">   |  Success 4   |  `LightModeColor.success4`   |  `var(--color-lm-success-4)`   |
-|  <img alt="" src="./assets/color-lm-success-5.svg" width="24px">   |  Success 5   |  `LightModeColor.success5`   |  `var(--color-lm-success-5)`   |
-|  <img alt="" src="./assets/color-lm-success-6.svg" width="24px">   |  Success 6   |  `LightModeColor.success6`   |  `var(--color-lm-success-6)`   |
-|  <img alt="" src="./assets/color-lm-success-7.svg" width="24px">   |  Success 7   |  `LightModeColor.success7`   |  `var(--color-lm-success-7)`   |
-|  <img alt="" src="./assets/color-lm-success-8.svg" width="24px">   |  Success 8   |  `LightModeColor.success8`   |  `var(--color-lm-success-8)`   |
-|  <img alt="" src="./assets/color-lm-success-9.svg" width="24px">   |  Success 9   |  `LightModeColor.success9`   |  `var(--color-lm-success-9)`   |
-|  <img alt="" src="./assets/color-lm-success-10.svg" width="24px">  |  Success 10  |  `LightModeColor.success10`  |  `var(--color-lm-success-10)`  |
+|  <img alt="" src="./assets/color-lm-neutral-1.svg" width="24px">   |  Neutral 1   |  `LightModeColor.neutral1`   |  `var(--lm-color-neutral-1)`   |
+|  <img alt="" src="./assets/color-lm-neutral-2.svg" width="24px">   |  Neutral 2   |  `LightModeColor.neutral2`   |  `var(--lm-color-neutral-2)`   |
+|  <img alt="" src="./assets/color-lm-neutral-3.svg" width="24px">   |  Neutral 3   |  `LightModeColor.neutral3`   |  `var(--lm-color-neutral-3)`   |
+|  <img alt="" src="./assets/color-lm-neutral-4.svg" width="24px">   |  Neutral 4   |  `LightModeColor.neutral4`   |  `var(--lm-color-neutral-4)`   |
+|  <img alt="" src="./assets/color-lm-neutral-5.svg" width="24px">   |  Neutral 5   |  `LightModeColor.neutral5`   |  `var(--lm-color-neutral-5)`   |
+|  <img alt="" src="./assets/color-lm-neutral-6.svg" width="24px">   |  Neutral 6   |  `LightModeColor.neutral6`   |  `var(--lm-color-neutral-6)`   |
+|  <img alt="" src="./assets/color-lm-neutral-7.svg" width="24px">   |  Neutral 7   |  `LightModeColor.neutral7`   |  `var(--lm-color-neutral-7)`   |
+|  <img alt="" src="./assets/color-lm-neutral-8.svg" width="24px">   |  Neutral 8   |  `LightModeColor.neutral8`   |  `var(--lm-color-neutral-8)`   |
+|  <img alt="" src="./assets/color-lm-neutral-9.svg" width="24px">   |  Neutral 9   |  `LightModeColor.neutral9`   |  `var(--lm-color-neutral-9)`   |
+|  <img alt="" src="./assets/color-lm-neutral-10.svg" width="24px">  |  Neutral 10  |  `LightModeColor.neutral10`  |  `var(--lm-color-neutral-10)`  |
+|  <img alt="" src="./assets/color-lm-primary-1.svg" width="24px">   |  Primary 1   |  `LightModeColor.primary1`   |  `var(--lm-color-primary-1)`   |
+|  <img alt="" src="./assets/color-lm-primary-2.svg" width="24px">   |  Primary 2   |  `LightModeColor.primary2`   |  `var(--lm-color-primary-2)`   |
+|  <img alt="" src="./assets/color-lm-primary-3.svg" width="24px">   |  Primary 3   |  `LightModeColor.primary3`   |  `var(--lm-color-primary-3)`   |
+|  <img alt="" src="./assets/color-lm-primary-4.svg" width="24px">   |  Primary 4   |  `LightModeColor.primary4`   |  `var(--lm-color-primary-4)`   |
+|  <img alt="" src="./assets/color-lm-primary-5.svg" width="24px">   |  Primary 5   |  `LightModeColor.primary5`   |  `var(--lm-color-primary-5)`   |
+|  <img alt="" src="./assets/color-lm-primary-6.svg" width="24px">   |  Primary 6   |  `LightModeColor.primary6`   |  `var(--lm-color-primary-6)`   |
+|  <img alt="" src="./assets/color-lm-primary-7.svg" width="24px">   |  Primary 7   |  `LightModeColor.primary7`   |  `var(--lm-color-primary-7)`   |
+|  <img alt="" src="./assets/color-lm-primary-8.svg" width="24px">   |  Primary 8   |  `LightModeColor.primary8`   |  `var(--lm-color-primary-8)`   |
+|  <img alt="" src="./assets/color-lm-primary-9.svg" width="24px">   |  Primary 9   |  `LightModeColor.primary9`   |  `var(--lm-color-primary-9)`   |
+|  <img alt="" src="./assets/color-lm-primary-10.svg" width="24px">  |  Primary 10  |  `LightModeColor.primary10`  |  `var(--lm-color-primary-10)`  |
+| <img alt="" src="./assets/color-lm-secondary-1.svg" width="24px">  | Secondary 1  | `LightModeColor.secondary1`  | `var(--lm-color-secondary-1)`  |
+| <img alt="" src="./assets/color-lm-secondary-2.svg" width="24px">  | Secondary 2  | `LightModeColor.secondary2`  | `var(--lm-color-secondary-2)`  |
+| <img alt="" src="./assets/color-lm-secondary-3.svg" width="24px">  | Secondary 3  | `LightModeColor.secondary3`  | `var(--lm-color-secondary-3)`  |
+| <img alt="" src="./assets/color-lm-secondary-4.svg" width="24px">  | Secondary 4  | `LightModeColor.secondary4`  | `var(--lm-color-secondary-4)`  |
+| <img alt="" src="./assets/color-lm-secondary-5.svg" width="24px">  | Secondary 5  | `LightModeColor.secondary5`  | `var(--lm-color-secondary-5)`  |
+| <img alt="" src="./assets/color-lm-secondary-6.svg" width="24px">  | Secondary 6  | `LightModeColor.secondary6`  | `var(--lm-color-secondary-6)`  |
+| <img alt="" src="./assets/color-lm-secondary-7.svg" width="24px">  | Secondary 7  | `LightModeColor.secondary7`  | `var(--lm-color-secondary-7)`  |
+| <img alt="" src="./assets/color-lm-secondary-8.svg" width="24px">  | Secondary 8  | `LightModeColor.secondary8`  | `var(--lm-color-secondary-8)`  |
+| <img alt="" src="./assets/color-lm-secondary-9.svg" width="24px">  | Secondary 9  | `LightModeColor.secondary9`  | `var(--lm-color-secondary-9)`  |
+| <img alt="" src="./assets/color-lm-secondary-10.svg" width="24px"> | Secondary 10 | `LightModeColor.secondary10` | `var(--lm-color-secondary-10)` |
+|   <img alt="" src="./assets/color-lm-danger-1.svg" width="24px">   |   Danger 1   |   `LightModeColor.danger1`   |   `var(--lm-color-danger-1)`   |
+|   <img alt="" src="./assets/color-lm-danger-2.svg" width="24px">   |   Danger 2   |   `LightModeColor.danger2`   |   `var(--lm-color-danger-2)`   |
+|   <img alt="" src="./assets/color-lm-danger-3.svg" width="24px">   |   Danger 3   |   `LightModeColor.danger3`   |   `var(--lm-color-danger-3)`   |
+|   <img alt="" src="./assets/color-lm-danger-4.svg" width="24px">   |   Danger 4   |   `LightModeColor.danger4`   |   `var(--lm-color-danger-4)`   |
+|   <img alt="" src="./assets/color-lm-danger-5.svg" width="24px">   |   Danger 5   |   `LightModeColor.danger5`   |   `var(--lm-color-danger-5)`   |
+|   <img alt="" src="./assets/color-lm-danger-6.svg" width="24px">   |   Danger 6   |   `LightModeColor.danger6`   |   `var(--lm-color-danger-6)`   |
+|   <img alt="" src="./assets/color-lm-danger-7.svg" width="24px">   |   Danger 7   |   `LightModeColor.danger7`   |   `var(--lm-color-danger-7)`   |
+|   <img alt="" src="./assets/color-lm-danger-8.svg" width="24px">   |   Danger 8   |   `LightModeColor.danger8`   |   `var(--lm-color-danger-8)`   |
+|   <img alt="" src="./assets/color-lm-danger-9.svg" width="24px">   |   Danger 9   |   `LightModeColor.danger9`   |   `var(--lm-color-danger-9)`   |
+|  <img alt="" src="./assets/color-lm-danger-10.svg" width="24px">   |  Danger 10   |  `LightModeColor.danger10`   |  `var(--lm-color-danger-10)`   |
+|  <img alt="" src="./assets/color-lm-warning-1.svg" width="24px">   |  Warning 1   |  `LightModeColor.warning1`   |  `var(--lm-color-warning-1)`   |
+|  <img alt="" src="./assets/color-lm-warning-2.svg" width="24px">   |  Warning 2   |  `LightModeColor.warning2`   |  `var(--lm-color-warning-2)`   |
+|  <img alt="" src="./assets/color-lm-warning-3.svg" width="24px">   |  Warning 3   |  `LightModeColor.warning3`   |  `var(--lm-color-warning-3)`   |
+|  <img alt="" src="./assets/color-lm-warning-4.svg" width="24px">   |  Warning 4   |  `LightModeColor.warning4`   |  `var(--lm-color-warning-4)`   |
+|  <img alt="" src="./assets/color-lm-warning-5.svg" width="24px">   |  Warning 5   |  `LightModeColor.warning5`   |  `var(--lm-color-warning-5)`   |
+|  <img alt="" src="./assets/color-lm-warning-6.svg" width="24px">   |  Warning 6   |  `LightModeColor.warning6`   |  `var(--lm-color-warning-6)`   |
+|  <img alt="" src="./assets/color-lm-warning-7.svg" width="24px">   |  Warning 7   |  `LightModeColor.warning7`   |  `var(--lm-color-warning-7)`   |
+|  <img alt="" src="./assets/color-lm-warning-8.svg" width="24px">   |  Warning 8   |  `LightModeColor.warning8`   |  `var(--lm-color-warning-8)`   |
+|  <img alt="" src="./assets/color-lm-warning-9.svg" width="24px">   |  Warning 9   |  `LightModeColor.warning9`   |  `var(--lm-color-warning-9)`   |
+|  <img alt="" src="./assets/color-lm-warning-10.svg" width="24px">  |  Warning 10  |  `LightModeColor.warning10`  |  `var(--lm-color-warning-10)`  |
+|  <img alt="" src="./assets/color-lm-success-1.svg" width="24px">   |  Success 1   |  `LightModeColor.success1`   |  `var(--lm-color-success-1)`   |
+|  <img alt="" src="./assets/color-lm-success-2.svg" width="24px">   |  Success 2   |  `LightModeColor.success2`   |  `var(--lm-color-success-2)`   |
+|  <img alt="" src="./assets/color-lm-success-3.svg" width="24px">   |  Success 3   |  `LightModeColor.success3`   |  `var(--lm-color-success-3)`   |
+|  <img alt="" src="./assets/color-lm-success-4.svg" width="24px">   |  Success 4   |  `LightModeColor.success4`   |  `var(--lm-color-success-4)`   |
+|  <img alt="" src="./assets/color-lm-success-5.svg" width="24px">   |  Success 5   |  `LightModeColor.success5`   |  `var(--lm-color-success-5)`   |
+|  <img alt="" src="./assets/color-lm-success-6.svg" width="24px">   |  Success 6   |  `LightModeColor.success6`   |  `var(--lm-color-success-6)`   |
+|  <img alt="" src="./assets/color-lm-success-7.svg" width="24px">   |  Success 7   |  `LightModeColor.success7`   |  `var(--lm-color-success-7)`   |
+|  <img alt="" src="./assets/color-lm-success-8.svg" width="24px">   |  Success 8   |  `LightModeColor.success8`   |  `var(--lm-color-success-8)`   |
+|  <img alt="" src="./assets/color-lm-success-9.svg" width="24px">   |  Success 9   |  `LightModeColor.success9`   |  `var(--lm-color-success-9)`   |
+|  <img alt="" src="./assets/color-lm-success-10.svg" width="24px">  |  Success 10  |  `LightModeColor.success10`  |  `var(--lm-color-success-10)`  |
 
 ### Dark Mode Colors
 
-The table below shows the color values for the dark theme:
+The table below shows the color values for the dark mode:
 
 |                               Color                                |     Name     |             JS              |              CSS               |
 |:------------------------------------------------------------------:|:------------:|:---------------------------:|:------------------------------:|
-|  <img alt="" src="./assets/color-dm-neutral-1.svg" width="24px">   |  Neutral 1   |  `DarkModeColor.neutral1`   |  `var(--color-dm-neutral-1)`   |
-|  <img alt="" src="./assets/color-dm-neutral-2.svg" width="24px">   |  Neutral 2   |  `DarkModeColor.neutral2`   |  `var(--color-dm-neutral-2)`   |
-|  <img alt="" src="./assets/color-dm-neutral-3.svg" width="24px">   |  Neutral 3   |  `DarkModeColor.neutral3`   |  `var(--color-dm-neutral-3)`   |
-|  <img alt="" src="./assets/color-dm-neutral-4.svg" width="24px">   |  Neutral 4   |  `DarkModeColor.neutral4`   |  `var(--color-dm-neutral-4)`   |
-|  <img alt="" src="./assets/color-dm-neutral-5.svg" width="24px">   |  Neutral 5   |  `DarkModeColor.neutral5`   |  `var(--color-dm-neutral-5)`   |
-|  <img alt="" src="./assets/color-dm-neutral-6.svg" width="24px">   |  Neutral 6   |  `DarkModeColor.neutral6`   |  `var(--color-dm-neutral-6)`   |
-|  <img alt="" src="./assets/color-dm-neutral-7.svg" width="24px">   |  Neutral 7   |  `DarkModeColor.neutral7`   |  `var(--color-dm-neutral-7)`   |
-|  <img alt="" src="./assets/color-dm-neutral-8.svg" width="24px">   |  Neutral 8   |  `DarkModeColor.neutral8`   |  `var(--color-dm-neutral-8)`   |
-|  <img alt="" src="./assets/color-dm-neutral-9.svg" width="24px">   |  Neutral 9   |  `DarkModeColor.neutral9`   |  `var(--color-dm-neutral-9)`   |
-|  <img alt="" src="./assets/color-dm-neutral-10.svg" width="24px">  |  Neutral 10  |  `DarkModeColor.neutral10`  |  `var(--color-dm-neutral-10)`  |
-|  <img alt="" src="./assets/color-dm-primary-1.svg" width="24px">   |  Primary 1   |  `DarkModeColor.primary1`   |  `var(--color-dm-primary-1)`   |
-|  <img alt="" src="./assets/color-dm-primary-2.svg" width="24px">   |  Primary 2   |  `DarkModeColor.primary2`   |  `var(--color-dm-primary-2)`   |
-|  <img alt="" src="./assets/color-dm-primary-3.svg" width="24px">   |  Primary 3   |  `DarkModeColor.primary3`   |  `var(--color-dm-primary-3)`   |
-|  <img alt="" src="./assets/color-dm-primary-4.svg" width="24px">   |  Primary 4   |  `DarkModeColor.primary4`   |  `var(--color-dm-primary-4)`   |
-|  <img alt="" src="./assets/color-dm-primary-5.svg" width="24px">   |  Primary 5   |  `DarkModeColor.primary5`   |  `var(--color-dm-primary-5)`   |
-|  <img alt="" src="./assets/color-dm-primary-6.svg" width="24px">   |  Primary 6   |  `DarkModeColor.primary6`   |  `var(--color-dm-primary-6)`   |
-|  <img alt="" src="./assets/color-dm-primary-7.svg" width="24px">   |  Primary 7   |  `DarkModeColor.primary7`   |  `var(--color-dm-primary-7)`   |
-|  <img alt="" src="./assets/color-dm-primary-8.svg" width="24px">   |  Primary 8   |  `DarkModeColor.primary8`   |  `var(--color-dm-primary-8)`   |
-|  <img alt="" src="./assets/color-dm-primary-9.svg" width="24px">   |  Primary 9   |  `DarkModeColor.primary9`   |  `var(--color-dm-primary-9)`   |
-|  <img alt="" src="./assets/color-dm-primary-10.svg" width="24px">  |  Primary 10  |  `DarkModeColor.primary10`  |  `var(--color-dm-primary-10)`  |
-| <img alt="" src="./assets/color-dm-secondary-1.svg" width="24px">  | Secondary 1  | `DarkModeColor.secondary1`  | `var(--color-dm-secondary-1)`  |
-| <img alt="" src="./assets/color-dm-secondary-2.svg" width="24px">  | Secondary 2  | `DarkModeColor.secondary2`  | `var(--color-dm-secondary-2)`  |
-| <img alt="" src="./assets/color-dm-secondary-3.svg" width="24px">  | Secondary 3  | `DarkModeColor.secondary3`  | `var(--color-dm-secondary-3)`  |
-| <img alt="" src="./assets/color-dm-secondary-4.svg" width="24px">  | Secondary 4  | `DarkModeColor.secondary4`  | `var(--color-dm-secondary-4)`  |
-| <img alt="" src="./assets/color-dm-secondary-5.svg" width="24px">  | Secondary 5  | `DarkModeColor.secondary5`  | `var(--color-dm-secondary-5)`  |
-| <img alt="" src="./assets/color-dm-secondary-6.svg" width="24px">  | Secondary 6  | `DarkModeColor.secondary6`  | `var(--color-dm-secondary-6)`  |
-| <img alt="" src="./assets/color-dm-secondary-7.svg" width="24px">  | Secondary 7  | `DarkModeColor.secondary7`  | `var(--color-dm-secondary-7)`  |
-| <img alt="" src="./assets/color-dm-secondary-8.svg" width="24px">  | Secondary 8  | `DarkModeColor.secondary8`  | `var(--color-dm-secondary-8)`  |
-| <img alt="" src="./assets/color-dm-secondary-9.svg" width="24px">  | Secondary 9  | `DarkModeColor.secondary9`  | `var(--color-dm-secondary-9)`  |
-| <img alt="" src="./assets/color-dm-secondary-10.svg" width="24px"> | Secondary 10 | `DarkModeColor.secondary10` | `var(--color-dm-secondary-10)` |
-|   <img alt="" src="./assets/color-dm-danger-1.svg" width="24px">   |   Danger 1   |   `DarkModeColor.danger1`   |   `var(--color-dm-danger-1)`   |
-|   <img alt="" src="./assets/color-dm-danger-2.svg" width="24px">   |   Danger 2   |   `DarkModeColor.danger2`   |   `var(--color-dm-danger-2)`   |
-|   <img alt="" src="./assets/color-dm-danger-3.svg" width="24px">   |   Danger 3   |   `DarkModeColor.danger3`   |   `var(--color-dm-danger-3)`   |
-|   <img alt="" src="./assets/color-dm-danger-4.svg" width="24px">   |   Danger 4   |   `DarkModeColor.danger4`   |   `var(--color-dm-danger-4)`   |
-|   <img alt="" src="./assets/color-dm-danger-5.svg" width="24px">   |   Danger 5   |   `DarkModeColor.danger5`   |   `var(--color-dm-danger-5)`   |
-|   <img alt="" src="./assets/color-dm-danger-6.svg" width="24px">   |   Danger 6   |   `DarkModeColor.danger6`   |   `var(--color-dm-danger-6)`   |
-|   <img alt="" src="./assets/color-dm-danger-7.svg" width="24px">   |   Danger 7   |   `DarkModeColor.danger7`   |   `var(--color-dm-danger-7)`   |
-|   <img alt="" src="./assets/color-dm-danger-8.svg" width="24px">   |   Danger 8   |   `DarkModeColor.danger8`   |   `var(--color-dm-danger-8)`   |
-|   <img alt="" src="./assets/color-dm-danger-9.svg" width="24px">   |   Danger 9   |   `DarkModeColor.danger9`   |   `var(--color-dm-danger-9)`   |
-|  <img alt="" src="./assets/color-dm-danger-10.svg" width="24px">   |  Danger 10   |  `DarkModeColor.danger10`   |  `var(--color-dm-danger-10)`   |
-|  <img alt="" src="./assets/color-dm-warning-1.svg" width="24px">   |  Warning 1   |  `DarkModeColor.warning1`   |  `var(--color-dm-warning-1)`   |
-|  <img alt="" src="./assets/color-dm-warning-2.svg" width="24px">   |  Warning 2   |  `DarkModeColor.warning2`   |  `var(--color-dm-warning-2)`   |
-|  <img alt="" src="./assets/color-dm-warning-3.svg" width="24px">   |  Warning 3   |  `DarkModeColor.warning3`   |  `var(--color-dm-warning-3)`   |
-|  <img alt="" src="./assets/color-dm-warning-4.svg" width="24px">   |  Warning 4   |  `DarkModeColor.warning4`   |  `var(--color-dm-warning-4)`   |
-|  <img alt="" src="./assets/color-dm-warning-5.svg" width="24px">   |  Warning 5   |  `DarkModeColor.warning5`   |  `var(--color-dm-warning-5)`   |
-|  <img alt="" src="./assets/color-dm-warning-6.svg" width="24px">   |  Warning 6   |  `DarkModeColor.warning6`   |  `var(--color-dm-warning-6)`   |
-|  <img alt="" src="./assets/color-dm-warning-7.svg" width="24px">   |  Warning 7   |  `DarkModeColor.warning7`   |  `var(--color-dm-warning-7)`   |
-|  <img alt="" src="./assets/color-dm-warning-8.svg" width="24px">   |  Warning 8   |  `DarkModeColor.warning8`   |  `var(--color-dm-warning-8)`   |
-|  <img alt="" src="./assets/color-dm-warning-9.svg" width="24px">   |  Warning 9   |  `DarkModeColor.warning9`   |  `var(--color-dm-warning-9)`   |
-|  <img alt="" src="./assets/color-dm-warning-10.svg" width="24px">  |  Warning 10  |  `DarkModeColor.warning10`  |  `var(--color-dm-warning-10)`  |
-|  <img alt="" src="./assets/color-dm-success-1.svg" width="24px">   |  Success 1   |  `DarkModeColor.success1`   |  `var(--color-dm-success-1)`   |
-|  <img alt="" src="./assets/color-dm-success-2.svg" width="24px">   |  Success 2   |  `DarkModeColor.success2`   |  `var(--color-dm-success-2)`   |
-|  <img alt="" src="./assets/color-dm-success-3.svg" width="24px">   |  Success 3   |  `DarkModeColor.success3`   |  `var(--color-dm-success-3)`   |
-|  <img alt="" src="./assets/color-dm-success-4.svg" width="24px">   |  Success 4   |  `DarkModeColor.success4`   |  `var(--color-dm-success-4)`   |
-|  <img alt="" src="./assets/color-dm-success-5.svg" width="24px">   |  Success 5   |  `DarkModeColor.success5`   |  `var(--color-dm-success-5)`   |
-|  <img alt="" src="./assets/color-dm-success-6.svg" width="24px">   |  Success 6   |  `DarkModeColor.success6`   |  `var(--color-dm-success-6)`   |
-|  <img alt="" src="./assets/color-dm-success-7.svg" width="24px">   |  Success 7   |  `DarkModeColor.success7`   |  `var(--color-dm-success-7)`   |
-|  <img alt="" src="./assets/color-dm-success-8.svg" width="24px">   |  Success 8   |  `DarkModeColor.success8`   |  `var(--color-dm-success-8)`   |
-|  <img alt="" src="./assets/color-dm-success-9.svg" width="24px">   |  Success 9   |  `DarkModeColor.success9`   |  `var(--color-dm-success-9)`   |
-|  <img alt="" src="./assets/color-dm-success-10.svg" width="24px">  |  Success 10  |  `DarkModeColor.success10`  |  `var(--color-dm-success-10)`  |
+|  <img alt="" src="./assets/color-dm-neutral-1.svg" width="24px">   |  Neutral 1   |  `DarkModeColor.neutral1`   |  `var(--dm-color-neutral-1)`   |
+|  <img alt="" src="./assets/color-dm-neutral-2.svg" width="24px">   |  Neutral 2   |  `DarkModeColor.neutral2`   |  `var(--dm-color-neutral-2)`   |
+|  <img alt="" src="./assets/color-dm-neutral-3.svg" width="24px">   |  Neutral 3   |  `DarkModeColor.neutral3`   |  `var(--dm-color-neutral-3)`   |
+|  <img alt="" src="./assets/color-dm-neutral-4.svg" width="24px">   |  Neutral 4   |  `DarkModeColor.neutral4`   |  `var(--dm-color-neutral-4)`   |
+|  <img alt="" src="./assets/color-dm-neutral-5.svg" width="24px">   |  Neutral 5   |  `DarkModeColor.neutral5`   |  `var(--dm-color-neutral-5)`   |
+|  <img alt="" src="./assets/color-dm-neutral-6.svg" width="24px">   |  Neutral 6   |  `DarkModeColor.neutral6`   |  `var(--dm-color-neutral-6)`   |
+|  <img alt="" src="./assets/color-dm-neutral-7.svg" width="24px">   |  Neutral 7   |  `DarkModeColor.neutral7`   |  `var(--dm-color-neutral-7)`   |
+|  <img alt="" src="./assets/color-dm-neutral-8.svg" width="24px">   |  Neutral 8   |  `DarkModeColor.neutral8`   |  `var(--dm-color-neutral-8)`   |
+|  <img alt="" src="./assets/color-dm-neutral-9.svg" width="24px">   |  Neutral 9   |  `DarkModeColor.neutral9`   |  `var(--dm-color-neutral-9)`   |
+|  <img alt="" src="./assets/color-dm-neutral-10.svg" width="24px">  |  Neutral 10  |  `DarkModeColor.neutral10`  |  `var(--dm-color-neutral-10)`  |
+|  <img alt="" src="./assets/color-dm-primary-1.svg" width="24px">   |  Primary 1   |  `DarkModeColor.primary1`   |  `var(--dm-color-primary-1)`   |
+|  <img alt="" src="./assets/color-dm-primary-2.svg" width="24px">   |  Primary 2   |  `DarkModeColor.primary2`   |  `var(--dm-color-primary-2)`   |
+|  <img alt="" src="./assets/color-dm-primary-3.svg" width="24px">   |  Primary 3   |  `DarkModeColor.primary3`   |  `var(--dm-color-primary-3)`   |
+|  <img alt="" src="./assets/color-dm-primary-4.svg" width="24px">   |  Primary 4   |  `DarkModeColor.primary4`   |  `var(--dm-color-primary-4)`   |
+|  <img alt="" src="./assets/color-dm-primary-5.svg" width="24px">   |  Primary 5   |  `DarkModeColor.primary5`   |  `var(--dm-color-primary-5)`   |
+|  <img alt="" src="./assets/color-dm-primary-6.svg" width="24px">   |  Primary 6   |  `DarkModeColor.primary6`   |  `var(--dm-color-primary-6)`   |
+|  <img alt="" src="./assets/color-dm-primary-7.svg" width="24px">   |  Primary 7   |  `DarkModeColor.primary7`   |  `var(--dm-color-primary-7)`   |
+|  <img alt="" src="./assets/color-dm-primary-8.svg" width="24px">   |  Primary 8   |  `DarkModeColor.primary8`   |  `var(--dm-color-primary-8)`   |
+|  <img alt="" src="./assets/color-dm-primary-9.svg" width="24px">   |  Primary 9   |  `DarkModeColor.primary9`   |  `var(--dm-color-primary-9)`   |
+|  <img alt="" src="./assets/color-dm-primary-10.svg" width="24px">  |  Primary 10  |  `DarkModeColor.primary10`  |  `var(--dm-color-primary-10)`  |
+| <img alt="" src="./assets/color-dm-secondary-1.svg" width="24px">  | Secondary 1  | `DarkModeColor.secondary1`  | `var(--dm-color-secondary-1)`  |
+| <img alt="" src="./assets/color-dm-secondary-2.svg" width="24px">  | Secondary 2  | `DarkModeColor.secondary2`  | `var(--dm-color-secondary-2)`  |
+| <img alt="" src="./assets/color-dm-secondary-3.svg" width="24px">  | Secondary 3  | `DarkModeColor.secondary3`  | `var(--dm-color-secondary-3)`  |
+| <img alt="" src="./assets/color-dm-secondary-4.svg" width="24px">  | Secondary 4  | `DarkModeColor.secondary4`  | `var(--dm-color-secondary-4)`  |
+| <img alt="" src="./assets/color-dm-secondary-5.svg" width="24px">  | Secondary 5  | `DarkModeColor.secondary5`  | `var(--dm-color-secondary-5)`  |
+| <img alt="" src="./assets/color-dm-secondary-6.svg" width="24px">  | Secondary 6  | `DarkModeColor.secondary6`  | `var(--dm-color-secondary-6)`  |
+| <img alt="" src="./assets/color-dm-secondary-7.svg" width="24px">  | Secondary 7  | `DarkModeColor.secondary7`  | `var(--dm-color-secondary-7)`  |
+| <img alt="" src="./assets/color-dm-secondary-8.svg" width="24px">  | Secondary 8  | `DarkModeColor.secondary8`  | `var(--dm-color-secondary-8)`  |
+| <img alt="" src="./assets/color-dm-secondary-9.svg" width="24px">  | Secondary 9  | `DarkModeColor.secondary9`  | `var(--dm-color-secondary-9)`  |
+| <img alt="" src="./assets/color-dm-secondary-10.svg" width="24px"> | Secondary 10 | `DarkModeColor.secondary10` | `var(--dm-color-secondary-10)` |
+|   <img alt="" src="./assets/color-dm-danger-1.svg" width="24px">   |   Danger 1   |   `DarkModeColor.danger1`   |   `var(--dm-color-danger-1)`   |
+|   <img alt="" src="./assets/color-dm-danger-2.svg" width="24px">   |   Danger 2   |   `DarkModeColor.danger2`   |   `var(--dm-color-danger-2)`   |
+|   <img alt="" src="./assets/color-dm-danger-3.svg" width="24px">   |   Danger 3   |   `DarkModeColor.danger3`   |   `var(--dm-color-danger-3)`   |
+|   <img alt="" src="./assets/color-dm-danger-4.svg" width="24px">   |   Danger 4   |   `DarkModeColor.danger4`   |   `var(--dm-color-danger-4)`   |
+|   <img alt="" src="./assets/color-dm-danger-5.svg" width="24px">   |   Danger 5   |   `DarkModeColor.danger5`   |   `var(--dm-color-danger-5)`   |
+|   <img alt="" src="./assets/color-dm-danger-6.svg" width="24px">   |   Danger 6   |   `DarkModeColor.danger6`   |   `var(--dm-color-danger-6)`   |
+|   <img alt="" src="./assets/color-dm-danger-7.svg" width="24px">   |   Danger 7   |   `DarkModeColor.danger7`   |   `var(--dm-color-danger-7)`   |
+|   <img alt="" src="./assets/color-dm-danger-8.svg" width="24px">   |   Danger 8   |   `DarkModeColor.danger8`   |   `var(--dm-color-danger-8)`   |
+|   <img alt="" src="./assets/color-dm-danger-9.svg" width="24px">   |   Danger 9   |   `DarkModeColor.danger9`   |   `var(--dm-color-danger-9)`   |
+|  <img alt="" src="./assets/color-dm-danger-10.svg" width="24px">   |  Danger 10   |  `DarkModeColor.danger10`   |  `var(--dm-color-danger-10)`   |
+|  <img alt="" src="./assets/color-dm-warning-1.svg" width="24px">   |  Warning 1   |  `DarkModeColor.warning1`   |  `var(--dm-color-warning-1)`   |
+|  <img alt="" src="./assets/color-dm-warning-2.svg" width="24px">   |  Warning 2   |  `DarkModeColor.warning2`   |  `var(--dm-color-warning-2)`   |
+|  <img alt="" src="./assets/color-dm-warning-3.svg" width="24px">   |  Warning 3   |  `DarkModeColor.warning3`   |  `var(--dm-color-warning-3)`   |
+|  <img alt="" src="./assets/color-dm-warning-4.svg" width="24px">   |  Warning 4   |  `DarkModeColor.warning4`   |  `var(--dm-color-warning-4)`   |
+|  <img alt="" src="./assets/color-dm-warning-5.svg" width="24px">   |  Warning 5   |  `DarkModeColor.warning5`   |  `var(--dm-color-warning-5)`   |
+|  <img alt="" src="./assets/color-dm-warning-6.svg" width="24px">   |  Warning 6   |  `DarkModeColor.warning6`   |  `var(--dm-color-warning-6)`   |
+|  <img alt="" src="./assets/color-dm-warning-7.svg" width="24px">   |  Warning 7   |  `DarkModeColor.warning7`   |  `var(--dm-color-warning-7)`   |
+|  <img alt="" src="./assets/color-dm-warning-8.svg" width="24px">   |  Warning 8   |  `DarkModeColor.warning8`   |  `var(--dm-color-warning-8)`   |
+|  <img alt="" src="./assets/color-dm-warning-9.svg" width="24px">   |  Warning 9   |  `DarkModeColor.warning9`   |  `var(--dm-color-warning-9)`   |
+|  <img alt="" src="./assets/color-dm-warning-10.svg" width="24px">  |  Warning 10  |  `DarkModeColor.warning10`  |  `var(--dm-color-warning-10)`  |
+|  <img alt="" src="./assets/color-dm-success-1.svg" width="24px">   |  Success 1   |  `DarkModeColor.success1`   |  `var(--dm-color-success-1)`   |
+|  <img alt="" src="./assets/color-dm-success-2.svg" width="24px">   |  Success 2   |  `DarkModeColor.success2`   |  `var(--dm-color-success-2)`   |
+|  <img alt="" src="./assets/color-dm-success-3.svg" width="24px">   |  Success 3   |  `DarkModeColor.success3`   |  `var(--dm-color-success-3)`   |
+|  <img alt="" src="./assets/color-dm-success-4.svg" width="24px">   |  Success 4   |  `DarkModeColor.success4`   |  `var(--dm-color-success-4)`   |
+|  <img alt="" src="./assets/color-dm-success-5.svg" width="24px">   |  Success 5   |  `DarkModeColor.success5`   |  `var(--dm-color-success-5)`   |
+|  <img alt="" src="./assets/color-dm-success-6.svg" width="24px">   |  Success 6   |  `DarkModeColor.success6`   |  `var(--dm-color-success-6)`   |
+|  <img alt="" src="./assets/color-dm-success-7.svg" width="24px">   |  Success 7   |  `DarkModeColor.success7`   |  `var(--dm-color-success-7)`   |
+|  <img alt="" src="./assets/color-dm-success-8.svg" width="24px">   |  Success 8   |  `DarkModeColor.success8`   |  `var(--dm-color-success-8)`   |
+|  <img alt="" src="./assets/color-dm-success-9.svg" width="24px">   |  Success 9   |  `DarkModeColor.success9`   |  `var(--dm-color-success-9)`   |
+|  <img alt="" src="./assets/color-dm-success-10.svg" width="24px">  |  Success 10  |  `DarkModeColor.success10`  |  `var(--dm-color-success-10)`  |
 
-### Themed Colors
+### Mode Colors
 
-The table below shows color values that adapt to both light and dark themes:
+The table below shows color values that adapt to both light and dark modes:
 
-|                             Light Mode                             |                             Dark Mode                              |     Name     |                CSS                 |
-|:------------------------------------------------------------------:|:------------------------------------------------------------------:|:------------:|:----------------------------------:|
-|  <img alt="" src="./assets/color-lm-neutral-1.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-1.svg" width="24px">   |  Neutral 1   |  `var(--themed-color-neutral-1)`   |
-|  <img alt="" src="./assets/color-lm-neutral-2.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-2.svg" width="24px">   |  Neutral 2   |  `var(--themed-color-neutral-2)`   |
-|  <img alt="" src="./assets/color-lm-neutral-3.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-3.svg" width="24px">   |  Neutral 3   |  `var(--themed-color-neutral-3)`   |
-|  <img alt="" src="./assets/color-lm-neutral-4.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-4.svg" width="24px">   |  Neutral 4   |  `var(--themed-color-neutral-4)`   |
-|  <img alt="" src="./assets/color-lm-neutral-5.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-5.svg" width="24px">   |  Neutral 5   |  `var(--themed-color-neutral-5)`   |
-|  <img alt="" src="./assets/color-lm-neutral-6.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-6.svg" width="24px">   |  Neutral 6   |  `var(--themed-color-neutral-6)`   |
-|  <img alt="" src="./assets/color-lm-neutral-7.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-7.svg" width="24px">   |  Neutral 7   |  `var(--themed-color-neutral-7)`   |
-|  <img alt="" src="./assets/color-lm-neutral-8.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-8.svg" width="24px">   |  Neutral 8   |  `var(--themed-color-neutral-8)`   |
-|  <img alt="" src="./assets/color-lm-neutral-9.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-9.svg" width="24px">   |  Neutral 9   |  `var(--themed-color-neutral-9)`   |
-|  <img alt="" src="./assets/color-lm-neutral-10.svg" width="24px">  |  <img alt="" src="./assets/color-dm-neutral-10.svg" width="24px">  |  Neutral 10  |  `var(--themed-color-neutral-10)`  |
-|  <img alt="" src="./assets/color-lm-primary-1.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-1.svg" width="24px">   |  Primary 1   |  `var(--themed-color-primary-1)`   |
-|  <img alt="" src="./assets/color-lm-primary-2.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-2.svg" width="24px">   |  Primary 2   |  `var(--themed-color-primary-2)`   |
-|  <img alt="" src="./assets/color-lm-primary-3.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-3.svg" width="24px">   |  Primary 3   |  `var(--themed-color-primary-3)`   |
-|  <img alt="" src="./assets/color-lm-primary-4.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-4.svg" width="24px">   |  Primary 4   |  `var(--themed-color-primary-4)`   |
-|  <img alt="" src="./assets/color-lm-primary-5.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-5.svg" width="24px">   |  Primary 5   |  `var(--themed-color-primary-5)`   |
-|  <img alt="" src="./assets/color-lm-primary-6.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-6.svg" width="24px">   |  Primary 6   |  `var(--themed-color-primary-6)`   |
-|  <img alt="" src="./assets/color-lm-primary-7.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-7.svg" width="24px">   |  Primary 7   |  `var(--themed-color-primary-7)`   |
-|  <img alt="" src="./assets/color-lm-primary-8.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-8.svg" width="24px">   |  Primary 8   |  `var(--themed-color-primary-8)`   |
-|  <img alt="" src="./assets/color-lm-primary-9.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-9.svg" width="24px">   |  Primary 9   |  `var(--themed-color-primary-9)`   |
-|  <img alt="" src="./assets/color-lm-primary-10.svg" width="24px">  |  <img alt="" src="./assets/color-dm-primary-10.svg" width="24px">  |  Primary 10  |  `var(--themed-color-primary-10)`  |
-| <img alt="" src="./assets/color-lm-secondary-1.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-1.svg" width="24px">  | Secondary 1  | `var(--themed-color-secondary-1)`  |
-| <img alt="" src="./assets/color-lm-secondary-2.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-2.svg" width="24px">  | Secondary 2  | `var(--themed-color-secondary-2)`  |
-| <img alt="" src="./assets/color-lm-secondary-3.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-3.svg" width="24px">  | Secondary 3  | `var(--themed-color-secondary-3)`  |
-| <img alt="" src="./assets/color-lm-secondary-4.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-4.svg" width="24px">  | Secondary 4  | `var(--themed-color-secondary-4)`  |
-| <img alt="" src="./assets/color-lm-secondary-5.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-5.svg" width="24px">  | Secondary 5  | `var(--themed-color-secondary-5)`  |
-| <img alt="" src="./assets/color-lm-secondary-6.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-6.svg" width="24px">  | Secondary 6  | `var(--themed-color-secondary-6)`  |
-| <img alt="" src="./assets/color-lm-secondary-7.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-7.svg" width="24px">  | Secondary 7  | `var(--themed-color-secondary-7)`  |
-| <img alt="" src="./assets/color-lm-secondary-8.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-8.svg" width="24px">  | Secondary 8  | `var(--themed-color-secondary-8)`  |
-| <img alt="" src="./assets/color-lm-secondary-9.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-9.svg" width="24px">  | Secondary 9  | `var(--themed-color-secondary-9)`  |
-| <img alt="" src="./assets/color-lm-secondary-10.svg" width="24px"> | <img alt="" src="./assets/color-dm-secondary-10.svg" width="24px"> | Secondary 10 | `var(--themed-color-secondary-10)` |
-|   <img alt="" src="./assets/color-lm-danger-1.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-1.svg" width="24px">   |   Danger 1   |   `var(--themed-color-danger-1)`   |
-|   <img alt="" src="./assets/color-lm-danger-2.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-2.svg" width="24px">   |   Danger 2   |   `var(--themed-color-danger-2)`   |
-|   <img alt="" src="./assets/color-lm-danger-3.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-3.svg" width="24px">   |   Danger 3   |   `var(--themed-color-danger-3)`   |
-|   <img alt="" src="./assets/color-lm-danger-4.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-4.svg" width="24px">   |   Danger 4   |   `var(--themed-color-danger-4)`   |
-|   <img alt="" src="./assets/color-lm-danger-5.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-5.svg" width="24px">   |   Danger 5   |   `var(--themed-color-danger-5)`   |
-|   <img alt="" src="./assets/color-lm-danger-6.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-6.svg" width="24px">   |   Danger 6   |   `var(--themed-color-danger-6)`   |
-|   <img alt="" src="./assets/color-lm-danger-7.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-7.svg" width="24px">   |   Danger 7   |   `var(--themed-color-danger-7)`   |
-|   <img alt="" src="./assets/color-lm-danger-8.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-8.svg" width="24px">   |   Danger 8   |   `var(--themed-color-danger-8)`   |
-|   <img alt="" src="./assets/color-lm-danger-9.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-9.svg" width="24px">   |   Danger 9   |   `var(--themed-color-danger-9)`   |
-|  <img alt="" src="./assets/color-lm-danger-10.svg" width="24px">   |  <img alt="" src="./assets/color-dm-danger-10.svg" width="24px">   |  Danger 10   |  `var(--themed-color-danger-10)`   |
-|  <img alt="" src="./assets/color-lm-warning-1.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-1.svg" width="24px">   |  Warning 1   |  `var(--themed-color-warning-1)`   |
-|  <img alt="" src="./assets/color-lm-warning-2.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-2.svg" width="24px">   |  Warning 2   |  `var(--themed-color-warning-2)`   |
-|  <img alt="" src="./assets/color-lm-warning-3.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-3.svg" width="24px">   |  Warning 3   |  `var(--themed-color-warning-3)`   |
-|  <img alt="" src="./assets/color-lm-warning-4.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-4.svg" width="24px">   |  Warning 4   |  `var(--themed-color-warning-4)`   |
-|  <img alt="" src="./assets/color-lm-warning-5.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-5.svg" width="24px">   |  Warning 5   |  `var(--themed-color-warning-5)`   |
-|  <img alt="" src="./assets/color-lm-warning-6.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-6.svg" width="24px">   |  Warning 6   |  `var(--themed-color-warning-6)`   |
-|  <img alt="" src="./assets/color-lm-warning-7.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-7.svg" width="24px">   |  Warning 7   |  `var(--themed-color-warning-7)`   |
-|  <img alt="" src="./assets/color-lm-warning-8.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-8.svg" width="24px">   |  Warning 8   |  `var(--themed-color-warning-8)`   |
-|  <img alt="" src="./assets/color-lm-warning-9.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-9.svg" width="24px">   |  Warning 9   |  `var(--themed-color-warning-9)`   |
-|  <img alt="" src="./assets/color-lm-warning-10.svg" width="24px">  |  <img alt="" src="./assets/color-dm-warning-10.svg" width="24px">  |  Warning 10  |  `var(--themed-color-warning-10)`  |
-|  <img alt="" src="./assets/color-lm-success-1.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-1.svg" width="24px">   |  Success 1   |  `var(--themed-color-success-1)`   |
-|  <img alt="" src="./assets/color-lm-success-2.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-2.svg" width="24px">   |  Success 2   |  `var(--themed-color-success-2)`   |
-|  <img alt="" src="./assets/color-lm-success-3.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-3.svg" width="24px">   |  Success 3   |  `var(--themed-color-success-3)`   |
-|  <img alt="" src="./assets/color-lm-success-4.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-4.svg" width="24px">   |  Success 4   |  `var(--themed-color-success-4)`   |
-|  <img alt="" src="./assets/color-lm-success-5.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-5.svg" width="24px">   |  Success 5   |  `var(--themed-color-success-5)`   |
-|  <img alt="" src="./assets/color-lm-success-6.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-6.svg" width="24px">   |  Success 6   |  `var(--themed-color-success-6)`   |
-|  <img alt="" src="./assets/color-lm-success-7.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-7.svg" width="24px">   |  Success 7   |  `var(--themed-color-success-7)`   |
-|  <img alt="" src="./assets/color-lm-success-8.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-8.svg" width="24px">   |  Success 8   |  `var(--themed-color-success-8)`   |
-|  <img alt="" src="./assets/color-lm-success-9.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-9.svg" width="24px">   |  Success 9   |  `var(--themed-color-success-9)`   |
-|  <img alt="" src="./assets/color-lm-success-10.svg" width="24px">  |  <img alt="" src="./assets/color-dm-success-10.svg" width="24px">  |  Success 10  |  `var(--themed-color-success-10)`  |
+|                             Light Mode                             |                             Dark Mode                              |     Name     |             CSS             |
+|:------------------------------------------------------------------:|:------------------------------------------------------------------:|:------------:|:---------------------------:|
+|  <img alt="" src="./assets/color-lm-neutral-1.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-1.svg" width="24px">   |  Neutral 1   |  `var(--color-neutral-1)`   |
+|  <img alt="" src="./assets/color-lm-neutral-2.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-2.svg" width="24px">   |  Neutral 2   |  `var(--color-neutral-2)`   |
+|  <img alt="" src="./assets/color-lm-neutral-3.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-3.svg" width="24px">   |  Neutral 3   |  `var(--color-neutral-3)`   |
+|  <img alt="" src="./assets/color-lm-neutral-4.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-4.svg" width="24px">   |  Neutral 4   |  `var(--color-neutral-4)`   |
+|  <img alt="" src="./assets/color-lm-neutral-5.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-5.svg" width="24px">   |  Neutral 5   |  `var(--color-neutral-5)`   |
+|  <img alt="" src="./assets/color-lm-neutral-6.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-6.svg" width="24px">   |  Neutral 6   |  `var(--color-neutral-6)`   |
+|  <img alt="" src="./assets/color-lm-neutral-7.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-7.svg" width="24px">   |  Neutral 7   |  `var(--color-neutral-7)`   |
+|  <img alt="" src="./assets/color-lm-neutral-8.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-8.svg" width="24px">   |  Neutral 8   |  `var(--color-neutral-8)`   |
+|  <img alt="" src="./assets/color-lm-neutral-9.svg" width="24px">   |  <img alt="" src="./assets/color-dm-neutral-9.svg" width="24px">   |  Neutral 9   |  `var(--color-neutral-9)`   |
+|  <img alt="" src="./assets/color-lm-neutral-10.svg" width="24px">  |  <img alt="" src="./assets/color-dm-neutral-10.svg" width="24px">  |  Neutral 10  |  `var(--color-neutral-10)`  |
+|  <img alt="" src="./assets/color-lm-primary-1.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-1.svg" width="24px">   |  Primary 1   |  `var(--color-primary-1)`   |
+|  <img alt="" src="./assets/color-lm-primary-2.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-2.svg" width="24px">   |  Primary 2   |  `var(--color-primary-2)`   |
+|  <img alt="" src="./assets/color-lm-primary-3.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-3.svg" width="24px">   |  Primary 3   |  `var(--color-primary-3)`   |
+|  <img alt="" src="./assets/color-lm-primary-4.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-4.svg" width="24px">   |  Primary 4   |  `var(--color-primary-4)`   |
+|  <img alt="" src="./assets/color-lm-primary-5.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-5.svg" width="24px">   |  Primary 5   |  `var(--color-primary-5)`   |
+|  <img alt="" src="./assets/color-lm-primary-6.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-6.svg" width="24px">   |  Primary 6   |  `var(--color-primary-6)`   |
+|  <img alt="" src="./assets/color-lm-primary-7.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-7.svg" width="24px">   |  Primary 7   |  `var(--color-primary-7)`   |
+|  <img alt="" src="./assets/color-lm-primary-8.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-8.svg" width="24px">   |  Primary 8   |  `var(--color-primary-8)`   |
+|  <img alt="" src="./assets/color-lm-primary-9.svg" width="24px">   |  <img alt="" src="./assets/color-dm-primary-9.svg" width="24px">   |  Primary 9   |  `var(--color-primary-9)`   |
+|  <img alt="" src="./assets/color-lm-primary-10.svg" width="24px">  |  <img alt="" src="./assets/color-dm-primary-10.svg" width="24px">  |  Primary 10  |  `var(--color-primary-10)`  |
+| <img alt="" src="./assets/color-lm-secondary-1.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-1.svg" width="24px">  | Secondary 1  | `var(--color-secondary-1)`  |
+| <img alt="" src="./assets/color-lm-secondary-2.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-2.svg" width="24px">  | Secondary 2  | `var(--color-secondary-2)`  |
+| <img alt="" src="./assets/color-lm-secondary-3.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-3.svg" width="24px">  | Secondary 3  | `var(--color-secondary-3)`  |
+| <img alt="" src="./assets/color-lm-secondary-4.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-4.svg" width="24px">  | Secondary 4  | `var(--color-secondary-4)`  |
+| <img alt="" src="./assets/color-lm-secondary-5.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-5.svg" width="24px">  | Secondary 5  | `var(--color-secondary-5)`  |
+| <img alt="" src="./assets/color-lm-secondary-6.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-6.svg" width="24px">  | Secondary 6  | `var(--color-secondary-6)`  |
+| <img alt="" src="./assets/color-lm-secondary-7.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-7.svg" width="24px">  | Secondary 7  | `var(--color-secondary-7)`  |
+| <img alt="" src="./assets/color-lm-secondary-8.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-8.svg" width="24px">  | Secondary 8  | `var(--color-secondary-8)`  |
+| <img alt="" src="./assets/color-lm-secondary-9.svg" width="24px">  | <img alt="" src="./assets/color-dm-secondary-9.svg" width="24px">  | Secondary 9  | `var(--color-secondary-9)`  |
+| <img alt="" src="./assets/color-lm-secondary-10.svg" width="24px"> | <img alt="" src="./assets/color-dm-secondary-10.svg" width="24px"> | Secondary 10 | `var(--color-secondary-10)` |
+|   <img alt="" src="./assets/color-lm-danger-1.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-1.svg" width="24px">   |   Danger 1   |   `var(--color-danger-1)`   |
+|   <img alt="" src="./assets/color-lm-danger-2.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-2.svg" width="24px">   |   Danger 2   |   `var(--color-danger-2)`   |
+|   <img alt="" src="./assets/color-lm-danger-3.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-3.svg" width="24px">   |   Danger 3   |   `var(--color-danger-3)`   |
+|   <img alt="" src="./assets/color-lm-danger-4.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-4.svg" width="24px">   |   Danger 4   |   `var(--color-danger-4)`   |
+|   <img alt="" src="./assets/color-lm-danger-5.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-5.svg" width="24px">   |   Danger 5   |   `var(--color-danger-5)`   |
+|   <img alt="" src="./assets/color-lm-danger-6.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-6.svg" width="24px">   |   Danger 6   |   `var(--color-danger-6)`   |
+|   <img alt="" src="./assets/color-lm-danger-7.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-7.svg" width="24px">   |   Danger 7   |   `var(--color-danger-7)`   |
+|   <img alt="" src="./assets/color-lm-danger-8.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-8.svg" width="24px">   |   Danger 8   |   `var(--color-danger-8)`   |
+|   <img alt="" src="./assets/color-lm-danger-9.svg" width="24px">   |   <img alt="" src="./assets/color-dm-danger-9.svg" width="24px">   |   Danger 9   |   `var(--color-danger-9)`   |
+|  <img alt="" src="./assets/color-lm-danger-10.svg" width="24px">   |  <img alt="" src="./assets/color-dm-danger-10.svg" width="24px">   |  Danger 10   |  `var(--color-danger-10)`   |
+|  <img alt="" src="./assets/color-lm-warning-1.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-1.svg" width="24px">   |  Warning 1   |  `var(--color-warning-1)`   |
+|  <img alt="" src="./assets/color-lm-warning-2.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-2.svg" width="24px">   |  Warning 2   |  `var(--color-warning-2)`   |
+|  <img alt="" src="./assets/color-lm-warning-3.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-3.svg" width="24px">   |  Warning 3   |  `var(--color-warning-3)`   |
+|  <img alt="" src="./assets/color-lm-warning-4.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-4.svg" width="24px">   |  Warning 4   |  `var(--color-warning-4)`   |
+|  <img alt="" src="./assets/color-lm-warning-5.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-5.svg" width="24px">   |  Warning 5   |  `var(--color-warning-5)`   |
+|  <img alt="" src="./assets/color-lm-warning-6.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-6.svg" width="24px">   |  Warning 6   |  `var(--color-warning-6)`   |
+|  <img alt="" src="./assets/color-lm-warning-7.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-7.svg" width="24px">   |  Warning 7   |  `var(--color-warning-7)`   |
+|  <img alt="" src="./assets/color-lm-warning-8.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-8.svg" width="24px">   |  Warning 8   |  `var(--color-warning-8)`   |
+|  <img alt="" src="./assets/color-lm-warning-9.svg" width="24px">   |  <img alt="" src="./assets/color-dm-warning-9.svg" width="24px">   |  Warning 9   |  `var(--color-warning-9)`   |
+|  <img alt="" src="./assets/color-lm-warning-10.svg" width="24px">  |  <img alt="" src="./assets/color-dm-warning-10.svg" width="24px">  |  Warning 10  |  `var(--color-warning-10)`  |
+|  <img alt="" src="./assets/color-lm-success-1.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-1.svg" width="24px">   |  Success 1   |  `var(--color-success-1)`   |
+|  <img alt="" src="./assets/color-lm-success-2.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-2.svg" width="24px">   |  Success 2   |  `var(--color-success-2)`   |
+|  <img alt="" src="./assets/color-lm-success-3.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-3.svg" width="24px">   |  Success 3   |  `var(--color-success-3)`   |
+|  <img alt="" src="./assets/color-lm-success-4.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-4.svg" width="24px">   |  Success 4   |  `var(--color-success-4)`   |
+|  <img alt="" src="./assets/color-lm-success-5.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-5.svg" width="24px">   |  Success 5   |  `var(--color-success-5)`   |
+|  <img alt="" src="./assets/color-lm-success-6.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-6.svg" width="24px">   |  Success 6   |  `var(--color-success-6)`   |
+|  <img alt="" src="./assets/color-lm-success-7.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-7.svg" width="24px">   |  Success 7   |  `var(--color-success-7)`   |
+|  <img alt="" src="./assets/color-lm-success-8.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-8.svg" width="24px">   |  Success 8   |  `var(--color-success-8)`   |
+|  <img alt="" src="./assets/color-lm-success-9.svg" width="24px">   |  <img alt="" src="./assets/color-dm-success-9.svg" width="24px">   |  Success 9   |  `var(--color-success-9)`   |
+|  <img alt="" src="./assets/color-lm-success-10.svg" width="24px">  |  <img alt="" src="./assets/color-dm-success-10.svg" width="24px">  |  Success 10  |  `var(--color-success-10)`  |
 
 ---
 
 ## 🌈 Gradients
 
-Currently, there is one gradient variation, available in 10 shades for each theme. Gradients are used for decorative elements and to emphasize visual hierarchy.
+Currently, there is one gradient variation, available in 10 shades for each mode. Gradients are used for decorative elements and to emphasize visual hierarchy.
 
 ### Light Mode Gradients
 
-The table below shows the gradients for the light theme:
+The table below shows the gradients for the light mode:
 
 |                                Color                                |    Name    |              JS               |               CSS               |
 |:-------------------------------------------------------------------:|:----------:|:-----------------------------:|:-------------------------------:|
-| <img alt="" src="./assets/gradient-lm-primary-1.svg" width="24px">  | Primary 1  | `LightModeGradient.primary1`  | `var(--gradient-lm-primary-1)`  |
-| <img alt="" src="./assets/gradient-lm-primary-2.svg" width="24px">  | Primary 2  | `LightModeGradient.primary2`  | `var(--gradient-lm-primary-2)`  |
-| <img alt="" src="./assets/gradient-lm-primary-3.svg" width="24px">  | Primary 3  | `LightModeGradient.primary3`  | `var(--gradient-lm-primary-3)`  |
-| <img alt="" src="./assets/gradient-lm-primary-4.svg" width="24px">  | Primary 4  | `LightModeGradient.primary4`  | `var(--gradient-lm-primary-4)`  |
-| <img alt="" src="./assets/gradient-lm-primary-5.svg" width="24px">  | Primary 5  | `LightModeGradient.primary5`  | `var(--gradient-lm-primary-5)`  |
-| <img alt="" src="./assets/gradient-lm-primary-6.svg" width="24px">  | Primary 6  | `LightModeGradient.primary6`  | `var(--gradient-lm-primary-6)`  |
-| <img alt="" src="./assets/gradient-lm-primary-7.svg" width="24px">  | Primary 7  | `LightModeGradient.primary7`  | `var(--gradient-lm-primary-7)`  |
-| <img alt="" src="./assets/gradient-lm-primary-8.svg" width="24px">  | Primary 8  | `LightModeGradient.primary8`  | `var(--gradient-lm-primary-8)`  |
-| <img alt="" src="./assets/gradient-lm-primary-9.svg" width="24px">  | Primary 9  | `LightModeGradient.primary9`  | `var(--gradient-lm-primary-9)`  |
-| <img alt="" src="./assets/gradient-lm-primary-10.svg" width="24px"> | Primary 10 | `LightModeGradient.primary10` | `var(--gradient-lm-primary-10)` |
+| <img alt="" src="./assets/gradient-lm-primary-1.svg" width="24px">  | Primary 1  | `LightModeGradient.primary1`  | `var(--lm-gradient-primary-1)`  |
+| <img alt="" src="./assets/gradient-lm-primary-2.svg" width="24px">  | Primary 2  | `LightModeGradient.primary2`  | `var(--lm-gradient-primary-2)`  |
+| <img alt="" src="./assets/gradient-lm-primary-3.svg" width="24px">  | Primary 3  | `LightModeGradient.primary3`  | `var(--lm-gradient-primary-3)`  |
+| <img alt="" src="./assets/gradient-lm-primary-4.svg" width="24px">  | Primary 4  | `LightModeGradient.primary4`  | `var(--lm-gradient-primary-4)`  |
+| <img alt="" src="./assets/gradient-lm-primary-5.svg" width="24px">  | Primary 5  | `LightModeGradient.primary5`  | `var(--lm-gradient-primary-5)`  |
+| <img alt="" src="./assets/gradient-lm-primary-6.svg" width="24px">  | Primary 6  | `LightModeGradient.primary6`  | `var(--lm-gradient-primary-6)`  |
+| <img alt="" src="./assets/gradient-lm-primary-7.svg" width="24px">  | Primary 7  | `LightModeGradient.primary7`  | `var(--lm-gradient-primary-7)`  |
+| <img alt="" src="./assets/gradient-lm-primary-8.svg" width="24px">  | Primary 8  | `LightModeGradient.primary8`  | `var(--lm-gradient-primary-8)`  |
+| <img alt="" src="./assets/gradient-lm-primary-9.svg" width="24px">  | Primary 9  | `LightModeGradient.primary9`  | `var(--lm-gradient-primary-9)`  |
+| <img alt="" src="./assets/gradient-lm-primary-10.svg" width="24px"> | Primary 10 | `LightModeGradient.primary10` | `var(--lm-gradient-primary-10)` |
 
 ### Dark Mode Gradients
 
-The table below shows the gradients for the dark theme:
+The table below shows the gradients for the dark mode:
 
 |                                Color                                |    Name    |              JS              |               CSS               |
 |:-------------------------------------------------------------------:|:----------:|:----------------------------:|:-------------------------------:|
-| <img alt="" src="./assets/gradient-dm-primary-1.svg" width="24px">  | Primary 1  | `DarkModeGradient.primary1`  | `var(--gradient-dm-primary-1)`  |
-| <img alt="" src="./assets/gradient-dm-primary-2.svg" width="24px">  | Primary 2  | `DarkModeGradient.primary2`  | `var(--gradient-dm-primary-2)`  |
-| <img alt="" src="./assets/gradient-dm-primary-3.svg" width="24px">  | Primary 3  | `DarkModeGradient.primary3`  | `var(--gradient-dm-primary-3)`  |
-| <img alt="" src="./assets/gradient-dm-primary-4.svg" width="24px">  | Primary 4  | `DarkModeGradient.primary4`  | `var(--gradient-dm-primary-4)`  |
-| <img alt="" src="./assets/gradient-dm-primary-5.svg" width="24px">  | Primary 5  | `DarkModeGradient.primary5`  | `var(--gradient-dm-primary-5)`  |
-| <img alt="" src="./assets/gradient-dm-primary-6.svg" width="24px">  | Primary 6  | `DarkModeGradient.primary6`  | `var(--gradient-dm-primary-6)`  |
-| <img alt="" src="./assets/gradient-dm-primary-7.svg" width="24px">  | Primary 7  | `DarkModeGradient.primary7`  | `var(--gradient-dm-primary-7)`  |
-| <img alt="" src="./assets/gradient-dm-primary-8.svg" width="24px">  | Primary 8  | `DarkModeGradient.primary8`  | `var(--gradient-dm-primary-8)`  |
-| <img alt="" src="./assets/gradient-dm-primary-9.svg" width="24px">  | Primary 9  | `DarkModeGradient.primary9`  | `var(--gradient-dm-primary-9)`  |
-| <img alt="" src="./assets/gradient-dm-primary-10.svg" width="24px"> | Primary 10 | `DarkModeGradient.primary10` | `var(--gradient-dm-primary-10)` |
+| <img alt="" src="./assets/gradient-dm-primary-1.svg" width="24px">  | Primary 1  | `DarkModeGradient.primary1`  | `var(--dm-gradient-primary-1)`  |
+| <img alt="" src="./assets/gradient-dm-primary-2.svg" width="24px">  | Primary 2  | `DarkModeGradient.primary2`  | `var(--dm-gradient-primary-2)`  |
+| <img alt="" src="./assets/gradient-dm-primary-3.svg" width="24px">  | Primary 3  | `DarkModeGradient.primary3`  | `var(--dm-gradient-primary-3)`  |
+| <img alt="" src="./assets/gradient-dm-primary-4.svg" width="24px">  | Primary 4  | `DarkModeGradient.primary4`  | `var(--dm-gradient-primary-4)`  |
+| <img alt="" src="./assets/gradient-dm-primary-5.svg" width="24px">  | Primary 5  | `DarkModeGradient.primary5`  | `var(--dm-gradient-primary-5)`  |
+| <img alt="" src="./assets/gradient-dm-primary-6.svg" width="24px">  | Primary 6  | `DarkModeGradient.primary6`  | `var(--dm-gradient-primary-6)`  |
+| <img alt="" src="./assets/gradient-dm-primary-7.svg" width="24px">  | Primary 7  | `DarkModeGradient.primary7`  | `var(--dm-gradient-primary-7)`  |
+| <img alt="" src="./assets/gradient-dm-primary-8.svg" width="24px">  | Primary 8  | `DarkModeGradient.primary8`  | `var(--dm-gradient-primary-8)`  |
+| <img alt="" src="./assets/gradient-dm-primary-9.svg" width="24px">  | Primary 9  | `DarkModeGradient.primary9`  | `var(--dm-gradient-primary-9)`  |
+| <img alt="" src="./assets/gradient-dm-primary-10.svg" width="24px"> | Primary 10 | `DarkModeGradient.primary10` | `var(--dm-gradient-primary-10)` |
 
-### Themed Gradients
+### Mode Gradients
 
-The table below shows gradients that adapt to both light and dark themes.
+The table below shows gradients that adapt to both light and dark modes.
 
-|                             Light Mode                              |                              Dark Mode                              |    Name    |                 CSS                 |
-|:-------------------------------------------------------------------:|:-------------------------------------------------------------------:|:----------:|:-----------------------------------:|
-| <img alt="" src="./assets/gradient-lm-primary-1.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-1.svg" width="24px">  | Primary 1  | `var(--themed-gradient-primary-1)`  |
-| <img alt="" src="./assets/gradient-lm-primary-2.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-2.svg" width="24px">  | Primary 2  | `var(--themed-gradient-primary-2)`  |
-| <img alt="" src="./assets/gradient-lm-primary-3.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-3.svg" width="24px">  | Primary 3  | `var(--themed-gradient-primary-3)`  |
-| <img alt="" src="./assets/gradient-lm-primary-4.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-4.svg" width="24px">  | Primary 4  | `var(--themed-gradient-primary-4)`  |
-| <img alt="" src="./assets/gradient-lm-primary-5.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-5.svg" width="24px">  | Primary 5  | `var(--themed-gradient-primary-5)`  |
-| <img alt="" src="./assets/gradient-lm-primary-6.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-6.svg" width="24px">  | Primary 6  | `var(--themed-gradient-primary-6)`  |
-| <img alt="" src="./assets/gradient-lm-primary-7.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-7.svg" width="24px">  | Primary 7  | `var(--themed-gradient-primary-7)`  |
-| <img alt="" src="./assets/gradient-lm-primary-8.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-8.svg" width="24px">  | Primary 8  | `var(--themed-gradient-primary-8)`  |
-| <img alt="" src="./assets/gradient-lm-primary-9.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-9.svg" width="24px">  | Primary 9  | `var(--themed-gradient-primary-9)`  |
-| <img alt="" src="./assets/gradient-lm-primary-10.svg" width="24px"> | <img alt="" src="./assets/gradient-dm-primary-10.svg" width="24px"> | Primary 10 | `var(--themed-gradient-primary-10)` |
+|                             Light Mode                              |                              Dark Mode                              |    Name    |             CSS              |
+|:-------------------------------------------------------------------:|:-------------------------------------------------------------------:|:----------:|:----------------------------:|
+| <img alt="" src="./assets/gradient-lm-primary-1.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-1.svg" width="24px">  | Primary 1  | `var(--gradient-primary-1)`  |
+| <img alt="" src="./assets/gradient-lm-primary-2.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-2.svg" width="24px">  | Primary 2  | `var(--gradient-primary-2)`  |
+| <img alt="" src="./assets/gradient-lm-primary-3.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-3.svg" width="24px">  | Primary 3  | `var(--gradient-primary-3)`  |
+| <img alt="" src="./assets/gradient-lm-primary-4.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-4.svg" width="24px">  | Primary 4  | `var(--gradient-primary-4)`  |
+| <img alt="" src="./assets/gradient-lm-primary-5.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-5.svg" width="24px">  | Primary 5  | `var(--gradient-primary-5)`  |
+| <img alt="" src="./assets/gradient-lm-primary-6.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-6.svg" width="24px">  | Primary 6  | `var(--gradient-primary-6)`  |
+| <img alt="" src="./assets/gradient-lm-primary-7.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-7.svg" width="24px">  | Primary 7  | `var(--gradient-primary-7)`  |
+| <img alt="" src="./assets/gradient-lm-primary-8.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-8.svg" width="24px">  | Primary 8  | `var(--gradient-primary-8)`  |
+| <img alt="" src="./assets/gradient-lm-primary-9.svg" width="24px">  | <img alt="" src="./assets/gradient-dm-primary-9.svg" width="24px">  | Primary 9  | `var(--gradient-primary-9)`  |
+| <img alt="" src="./assets/gradient-lm-primary-10.svg" width="24px"> | <img alt="" src="./assets/gradient-dm-primary-10.svg" width="24px"> | Primary 10 | `var(--gradient-primary-10)` |
 
 ---
 
@@ -408,42 +408,42 @@ Available groups:
 
 Below is a table of all available typography styles:
 
-| Name                        | Font Family | Font Size | Font Weight | Line Height |                  JS                  |                     CSS                      |
-|:----------------------------|:-----------:|:---------:|:-----------:|:-----------:|:------------------------------------:|:--------------------------------------------:|
-| H1 / medium                 |  `Roboto`   |  `32px`   |    `500`    |   `40px`    |        `Typography.H1.medium`        |        `var(--typography-h1-medium)`         |
-| H2 / medium                 |  `Roboto`   |  `24px`   |    `500`    |   `30px`    |        `Typography.H2.medium`        |        `var(--typography-h2-medium)`         |
-| H3 / regular                |  `Roboto`   |  `20px`   |    `400`    |   `24px`    |       `Typography.H3.regular`        |        `var(--typography-h3-regular)`        |
-| H3 / medium                 |  `Roboto`   |  `20px`   |    `500`    |   `24px`    |        `Typography.H3.medium`        |        `var(--typography-h3-medium)`         |
-| H4 / regular                |  `Roboto`   |  `18px`   |    `400`    |   `24px`    |       `Typography.H4.regular`        |        `var(--typography-h4-regular)`        |
-| H4 / medium                 |  `Roboto`   |  `18px`   |    `500`    |   `24px`    |        `Typography.H4.medium`        |        `var(--typography-h4-medium)`         |
-| H5 / regular                |  `Roboto`   |  `16px`   |    `400`    |   `24px`    |       `Typography.H5.regular`        |        `var(--typography-h5-regular)`        |
-| H5 / medium                 |  `Roboto`   |  `16px`   |    `500`    |   `24px`    |        `Typography.H5.medium`        |        `var(--typography-h5-medium)`         |
-| H5 / bold                   |  `Roboto`   |  `16px`   |    `700`    |   `24px`    |         `Typography.H5.bold`         |         `var(--typography-h5-bold)`          |
-| Body / extraSmall / regular |  `Roboto`   |  `12px`   |    `400`    |   `16px`    | `Typography.Body.extraSmall.regular` | `var(--typography-body-extra-small-regular)` |
-| Body / extraSmall / medium  |  `Roboto`   |  `12px`   |    `500`    |   `16px`    | `Typography.Body.extraSmall.medium`  | `var(--typography-body-extra-small-medium)`  |
-| Body / small / regular      |  `Roboto`   |  `14px`   |    `400`    |   `22px`    |   `Typography.Body.small.regular`    |    `var(--typography-body-small-regular)`    |
-| Body / small / medium       |  `Roboto`   |  `14px`   |    `500`    |   `22px`    |    `Typography.Body.small.medium`    |    `var(--typography-body-small-medium)`     |
-| Body / small / bold         |  `Roboto`   |  `14px`   |    `700`    |   `22px`    |     `Typography.Body.small.bold`     |     `var(--typography-body-small-bold)`      |
-| Body / medium / regular     |  `Roboto`   |  `16px`   |    `400`    |   `24px`    |   `Typography.Body.medium.regular`   |   `var(--typography-body-medium-regular)`    |
-| Body / medium / medium      |  `Roboto`   |  `16px`   |    `500`    |   `24px`    |   `Typography.Body.medium.medium`    |    `var(--typography-body-medium-medium)`    |
-| Body / medium / bold        |  `Roboto`   |  `16px`   |    `700`    |   `24px`    |    `Typography.Body.medium.bold`     |     `var(--typography-body-medium-bold)`     |
-| Code / regular              |   `Menlo`   |  `14px`   |    `400`    |   `20px`    |      `Typography.Code.regular`       |       `var(--typography-code-regular)`       |
+| Name                        |  Font Family  | Font Size | Font Weight | Line Height |                  JS                  |                     CSS                      |
+|:----------------------------|:-------------:|:---------:|:-----------:|:-----------:|:------------------------------------:|:--------------------------------------------:|
+| H1 / medium                 |   `Roboto`    |  `32px`   |    `500`    |   `40px`    |        `Typography.H1.medium`        |        `var(--typography-h1-medium)`         |
+| H2 / medium                 |   `Roboto`    |  `24px`   |    `500`    |   `30px`    |        `Typography.H2.medium`        |        `var(--typography-h2-medium)`         |
+| H3 / regular                |   `Roboto`    |  `20px`   |    `400`    |   `24px`    |       `Typography.H3.regular`        |        `var(--typography-h3-regular)`        |
+| H3 / medium                 |   `Roboto`    |  `20px`   |    `500`    |   `24px`    |        `Typography.H3.medium`        |        `var(--typography-h3-medium)`         |
+| H4 / regular                |   `Roboto`    |  `18px`   |    `400`    |   `24px`    |       `Typography.H4.regular`        |        `var(--typography-h4-regular)`        |
+| H4 / medium                 |   `Roboto`    |  `18px`   |    `500`    |   `24px`    |        `Typography.H4.medium`        |        `var(--typography-h4-medium)`         |
+| H5 / regular                |   `Roboto`    |  `16px`   |    `400`    |   `24px`    |       `Typography.H5.regular`        |        `var(--typography-h5-regular)`        |
+| H5 / medium                 |   `Roboto`    |  `16px`   |    `500`    |   `24px`    |        `Typography.H5.medium`        |        `var(--typography-h5-medium)`         |
+| H5 / bold                   |   `Roboto`    |  `16px`   |    `700`    |   `24px`    |         `Typography.H5.bold`         |         `var(--typography-h5-bold)`          |
+| Body / extraSmall / regular |   `Roboto`    |  `12px`   |    `400`    |   `16px`    | `Typography.Body.extraSmall.regular` | `var(--typography-body-extra-small-regular)` |
+| Body / extraSmall / medium  |   `Roboto`    |  `12px`   |    `500`    |   `16px`    | `Typography.Body.extraSmall.medium`  | `var(--typography-body-extra-small-medium)`  |
+| Body / small / regular      |   `Roboto`    |  `14px`   |    `400`    |   `22px`    |   `Typography.Body.small.regular`    |    `var(--typography-body-small-regular)`    |
+| Body / small / medium       |   `Roboto`    |  `14px`   |    `500`    |   `22px`    |    `Typography.Body.small.medium`    |    `var(--typography-body-small-medium)`     |
+| Body / small / bold         |   `Roboto`    |  `14px`   |    `700`    |   `22px`    |     `Typography.Body.small.bold`     |     `var(--typography-body-small-bold)`      |
+| Body / medium / regular     |   `Roboto`    |  `16px`   |    `400`    |   `24px`    |   `Typography.Body.medium.regular`   |   `var(--typography-body-medium-regular)`    |
+| Body / medium / medium      |   `Roboto`    |  `16px`   |    `500`    |   `24px`    |   `Typography.Body.medium.medium`    |    `var(--typography-body-medium-medium)`    |
+| Body / medium / bold        |   `Roboto`    |  `16px`   |    `700`    |   `24px`    |    `Typography.Body.medium.bold`     |     `var(--typography-body-medium-bold)`     |
+| Code / regular              | `Roboto Mono` |  `14px`   |    `400`    |   `20px`    |      `Typography.Code.regular`       |       `var(--typography-code-regular)`       |
 
 
 ---
 
-## 🎛️ Theming
+## 🎛️ Mode Switching
 
-To enable automatic theming, make sure to include the generated CSS tokens file:
+To enable automatic mode-based styling, make sure to include the generated CSS tokens file:
 
 ```ts
 import '@webeach/design/tokens.css';
 ```
 
-The current theme is controlled via the data-theme attribute on the root HTML element. You should define a default value:
+The current mode is controlled via the `data-ui-mode` attribute on the any HTML element. You should define a default value:
 
 ```html
-<html data-theme="light">
+<html data-ui-mode="light">
   <head>
     ...
   </head>
@@ -453,16 +453,22 @@ The current theme is controlled via the data-theme attribute on the root HTML el
 </html>
 ```
 
-You can also manually retrieve themed color and gradient maps in JavaScript:
+```html
+<div data-ui-mode="dark">
+  ...
+</div>
+```
+
+You can also manually retrieve mode color and gradient maps in JavaScript:
 
 ```ts
-import { getThemedColor, getThemedGradient } from '@wrs/design';
+import { getModeColor, getModeGradient } from '@wrs/design';
 
-const ThemedColor = getThemedColor('light');
-const ThemedGradient = getThemedGradient('light');
+const Color = getModeColor('light');
+const Gradient = getModeGradient('light');
 
-console.log(ThemedColor.primary6); // "hsl(301 53% 55%)"
-console.log(ThemedGradient.primary6); // ["hsl(201 84% 55%)", "hsl(301 53% 55%)"]
+console.log(Color.primary6); // "hsl(301 53% 55%)"
+console.log(Gradient.primary6); // ["hsl(201 84% 55%)", "hsl(301 53% 55%)"]
 ```
 
 ---
@@ -473,8 +479,8 @@ console.log(ThemedGradient.primary6); // ["hsl(201 84% 55%)", "hsl(301 53% 55%)"
 
 ```css
 .button {
-  background-color: var(--themed-color-primary-5);
-  color: var(--themed-color-neutral-1);
+  background-color: var(--color-primary-5);
+  color: var(--color-neutral-1);
 }
 ```
 
@@ -482,7 +488,7 @@ console.log(ThemedGradient.primary6); // ["hsl(201 84% 55%)", "hsl(301 53% 55%)"
 
 ```css
 .button {
-  background-image: var(--themed-gradient-primary-6);
+  background-image: var(--gradient-primary-6);
 }
 ```
 
@@ -507,9 +513,9 @@ console.log(ThemedGradient.primary6); // ["hsl(201 84% 55%)", "hsl(301 53% 55%)"
 
 ```css
 .button {
-  background-color: var(--themed-color-neutral-1);
-  border-color: var(--themed-color-secondary-6);
-  color: var(--themed-color-neutral-10);
+  background-color: var(--color-neutral-1);
+  border-color: var(--color-secondary-6);
+  color: var(--color-neutral-10);
   
   border-style: solid;
   border-width: var(--border-size-regular);
@@ -550,6 +556,7 @@ import type {
   BorderSizeValue,
   ColorKey,
   GradientKey,
+  ModeKey,
   RoundingKey,
   RoundingType,
   RoundingValue,
@@ -559,7 +566,6 @@ import type {
   SpacingKey,
   SpacingType,
   SpacingValue,
-  ThemeKey,
   TypographyType
 } from '@wrs/design';
 ```

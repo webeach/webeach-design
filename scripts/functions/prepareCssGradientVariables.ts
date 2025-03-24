@@ -5,7 +5,7 @@ interface Options {
    * A prefix to prepend to each generated CSS gradient variable key.
    * Helps organize and namespace variables.
    *
-   * @example "theme"
+   * @example "lm"
    */
   keyPrefix?: string;
 
@@ -42,8 +42,8 @@ interface Options {
  * // => { "primary-gradient": "linear-gradient(to right, #ff0000, #0000ff)" }
  *
  * @example
- * prepareCssGradientVariables(gradients, colors, { keyPrefix: "theme" });
- * // => { "theme-primary-gradient": "linear-gradient(to right, #ff0000, #0000ff)" }
+ * prepareCssGradientVariables(gradients, colors, { keyPrefix: "lm" });
+ * // => { "lm-primary-gradient": "linear-gradient(to right, #ff0000, #0000ff)" }
  *
  * @example
  * prepareCssGradientVariables(gradients, colors, { colorKeyPrefix: "alt" });

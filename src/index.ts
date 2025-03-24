@@ -1,5 +1,5 @@
-export { getThemedColor } from './functions/getThemedColor';
-export { getThemedGradient } from './functions/getThemedGradient';
+export { getModeColor } from './functions/getModeColor';
+export { getModeGradient } from './functions/getModeGradient';
 
 export { DarkModeColor, LightModeColor } from './tokens/colors';
 export { DarkModeGradient, LightModeGradient } from './tokens/gradients';
@@ -28,4 +28,4 @@ export type {
 
 export type { TypographyType } from './tokens/typography';
 
-export type { ThemeKey } from './types/common';
+export type { ModeTypeKey } from './types/common';

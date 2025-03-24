@@ -1,6 +1,6 @@
 {
   "name": "@webeach/design",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Ruslan Martynov",
     "email": "github@webea.ch"
@@ -20,11 +20,14 @@
     "node": "22.2.0"
   },
   "type": "module",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/ejs/index.js",
+  "types": "./lib/types.d.ts",
   "exports": {
     ".": {
+      "types": "./lib/types.d.ts",
       "import": "./lib/esm/index.js",
-      "require": "./lib/cjs/index.js",
-      "types": "./lib/types.d.ts"
+      "require": "./lib/cjs/index.js"
     },
     "./tokens.css": "./lib/tokens.css"
   },

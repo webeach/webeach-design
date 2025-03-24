@@ -10,13 +10,13 @@ import { camelCaseStringSchema } from './camelCaseStringSchema';
  *   - The key follows the **camelCase** naming convention (`camelCaseStringSchema`).
  *   - The value is a **non-empty string** representing the font family name.
  * - The font family name must be explicitly defined (empty strings are **not allowed**).
- * - Example valid values: `"primary": "Roboto, sans-serif"`, `"monospace": "Menlo, monospace"`.
+ * - Example valid values: `"primary": "'Roboto', sans-serif"`, `"monospace": "'Roboto Mono', monospace"`.
  *
  * @example
  * fontFamilyMapSchema.parse({
  *   primary: "Roboto, sans-serif",
  *   secondary: "'Open Sans', sans-serif",
- *   monospace: "Menlo, monospace"
+ *   monospace: "'Roboto Mono', monospace"
  * }); // ✅ Valid
  *
  * fontFamilyMapSchema.parse({

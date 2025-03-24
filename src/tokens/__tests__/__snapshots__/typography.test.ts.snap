@@ -2,14 +2,14 @@
 
 exports[`Typography validation Snapshot FontFamily 1`] = `
 {
-  "monospace": ""Menlo", monospace",
+  "monospace": ""Roboto Mono", monospace",
   "primary": ""Roboto", sans-serif",
 }
 `;
 
 exports[`Typography validation Snapshot FontSize 1`] = `
 {
-  "monospace": ""Menlo", monospace",
+  "monospace": ""Roboto Mono", monospace",
   "primary": ""Roboto", sans-serif",
 }
 `;
@@ -93,7 +93,7 @@ exports[`Typography validation Snapshot Typography 1`] = `
   },
   "Code": {
     "regular": {
-      "fontFamily": ""Menlo", monospace",
+      "fontFamily": ""Roboto Mono", monospace",
       "fontSize": "14px",
       "fontWeight": 400,
       "lineHeight": "20px",

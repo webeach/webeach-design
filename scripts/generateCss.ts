@@ -4,17 +4,17 @@ import {
   BorderSize,
   DarkModeColor,
   DarkModeGradient,
-  getThemedColor,
-  getThemedGradient,
+  getModeColor,
+  getModeGradient,
   LightModeColor,
   LightModeGradient,
+  ModeTypeKey,
   Rounding,
   Size,
   Spacing,
-  ThemeKey,
   Typography,
 } from '../src';
-import { THEME_KEYS } from '../src/constants/common';
+import { MODE_TYPES } from '../src/constants/common';
 
 import { makeCssVariablesFile } from './functions/makeCssVariablesFile';
 import { prepareCssGradientVariables } from './functions/prepareCssGradientVariables';
@@ -24,10 +24,10 @@ import { prepareCssVariables } from './functions/prepareCssVariables';
 // Path to the output CSS file
 const CSS_FILE_PATH = path.resolve('./lib/tokens.css');
 
-// Mapping theme names to short aliases
-const themeShortAliasMap: Record<ThemeKey, string> = {
-  dark: 'dm', // Dark theme
-  light: 'lm', // Light theme
+// Mapping mode type names to short aliases
+const modeTypeShortAliasMap: Record<ModeTypeKey, string> = {
+  dark: 'dm', // Dark mode
+  light: 'lm', // Light mode
 };
 
 async function generateCss() {
@@ -38,10 +38,10 @@ async function generateCss() {
         variables: {
           // Generate CSS variables for dark and light colors
           ...prepareCssVariables(DarkModeColor, {
-            keyPrefix: `color-${themeShortAliasMap.dark}`,
+            keyPrefix: `${modeTypeShortAliasMap.dark}-color`,
           }),
           ...prepareCssVariables(LightModeColor, {
-            keyPrefix: `color-${themeShortAliasMap.light}`,
+            keyPrefix: `${modeTypeShortAliasMap.light}-color`,
           }),
 
           // Generate CSS variables for sizes
@@ -70,14 +70,14 @@ async function generateCss() {
             linkedKeyPrefix: 'size',
           }),
 
-          // Generate CSS variables for gradients in dark and light themes
+          // Generate CSS variables for gradients in dark and light modes
           ...prepareCssGradientVariables(DarkModeGradient, DarkModeColor, {
-            keyPrefix: 'gradient-dm',
-            colorKeyPrefix: `color-${themeShortAliasMap.dark}`,
+            keyPrefix: `${modeTypeShortAliasMap.dark}-gradient`,
+            colorKeyPrefix: `${modeTypeShortAliasMap.dark}-color`,
           }),
           ...prepareCssGradientVariables(LightModeGradient, LightModeColor, {
-            keyPrefix: 'gradient-lm',
-            colorKeyPrefix: `color-${themeShortAliasMap.light}`,
+            keyPrefix: `${modeTypeShortAliasMap.light}-gradient`,
+            colorKeyPrefix: `${modeTypeShortAliasMap.light}-color`,
           }),
 
           // Generate CSS variables for typography
@@ -111,22 +111,22 @@ async function generateCss() {
         },
       },
 
-      // Generate CSS variables for each theme (e.g., `data-theme="dark"`)
-      ...THEME_KEYS.map((themeKey) => ({
-        selector: `[data-theme="${themeKey}"]`,
+      // Generate CSS variables for each mode (e.g., `data-ui-mode="dark"`)
+      ...MODE_TYPES.map((modeType) => ({
+        selector: `[data-ui-mode="${modeType}"]`,
         variables: {
-          // Generate CSS variables for theme-specific colors
-          ...prepareCssVariables(getThemedColor(themeKey), {
-            keyPrefix: 'themed-color',
-            linkedObject: getThemedColor(themeKey),
-            linkedKeyPrefix: `color-${themeShortAliasMap[themeKey]}`,
+          // Generate CSS variables for mode-specific colors
+          ...prepareCssVariables(getModeColor(modeType), {
+            keyPrefix: 'color',
+            linkedObject: getModeColor(modeType),
+            linkedKeyPrefix: `${modeTypeShortAliasMap[modeType]}-color`,
           }),
 
-          // Generate CSS variables for theme-specific gradients
-          ...prepareCssVariables(getThemedGradient(themeKey), {
-            keyPrefix: 'themed-gradient',
-            linkedObject: getThemedGradient(themeKey),
-            linkedKeyPrefix: `gradient-${themeShortAliasMap[themeKey]}`,
+          // Generate CSS variables for mode-specific gradients
+          ...prepareCssVariables(getModeGradient(modeType), {
+            keyPrefix: 'gradient',
+            linkedObject: getModeGradient(modeType),
+            linkedKeyPrefix: `${modeTypeShortAliasMap[modeType]}-gradient`,
           }),
         },
       })),

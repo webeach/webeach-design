@@ -1,1 +1,1 @@
-export const THEME_KEYS = ['dark', 'light'] as const;
+export const MODE_TYPES = ['dark', 'light'] as const;

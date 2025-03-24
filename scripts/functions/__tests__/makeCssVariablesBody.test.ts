@@ -1,7 +1,7 @@
 import { makeCssVariablesBody } from '../makeCssVariablesBody';
 
 describe('makeCssVariablesBody', () => {
-  test('should generate CSS variables for :root without extra selector', () => {
+  test('should generate CSS variables for :root (default selector)', () => {
     const variables = {
       'primary-color': '#ff0000',
       'spacing-1x': '4px',
@@ -14,15 +14,15 @@ describe('makeCssVariablesBody', () => {
     );
   });
 
-  test('should generate CSS variables with extra selector', () => {
+  test('should generate CSS variables with custom selector (data-ui-mode)', () => {
     const variables = {
       'primary-color': '#0000ff',
       'border-radius': '8px',
     };
 
-    const result = makeCssVariablesBody(variables, '[data-theme="dark"]');
+    const result = makeCssVariablesBody(variables, '[data-ui-mode="dark"]');
     expect(result).toBe(
-      ':root:is([data-theme="dark"]){--primary-color: #0000ff;--border-radius: 8px}',
+      '[data-ui-mode="dark"]{--primary-color: #0000ff;--border-radius: 8px}',
     );
   });
 
