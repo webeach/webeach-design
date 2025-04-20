@@ -630,9 +630,9 @@ Before publishing a new version, make sure to:
 
 1. Commit and push all changes to the `main` branch.
 2. Use commit messages that follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) format:
-  - `feat: ...` — for new features
-  - `fix: ...` — for bug fixes
-  - `chore: ...`, `refactor: ...`, etc.
+   - `feat: ...` — for new features
+   - `fix: ...` — for bug fixes
+   - `chore: ...`, `refactor: ...`, etc.
 3. Versioning is determined automatically based on the type of commits (`patch`, `minor`, `major`).
 4. Update the `README.md`:
   - All tables should be updated if any tokens related to colors, sizes, or typography were changed.

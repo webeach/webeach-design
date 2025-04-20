@@ -1,4 +1,170 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Typography validation > Snapshot FontFamily 1`] = `
+{
+  "monospace": ""Roboto Mono", monospace",
+  "primary": ""Roboto", sans-serif",
+}
+`;
+
+exports[`Typography validation > Snapshot FontSize 1`] = `
+{
+  "monospace": ""Roboto Mono", monospace",
+  "primary": ""Roboto", sans-serif",
+}
+`;
+
+exports[`Typography validation > Snapshot FontWeight 1`] = `
+{
+  "bold": 700,
+  "medium": 500,
+  "regular": 400,
+}
+`;
+
+exports[`Typography validation > Snapshot LineHeight 1`] = `
+{
+  "compact": "16px",
+  "dense": "22px",
+  "extraRelaxed": "40px",
+  "normal": "24px",
+  "relaxed": "30px",
+  "tight": "20px",
+}
+`;
+
+exports[`Typography validation > Snapshot Typography 1`] = `
+{
+  "Body": {
+    "extraSmall": {
+      "medium": {
+        "fontFamily": ""Roboto", sans-serif",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": "16px",
+      },
+      "regular": {
+        "fontFamily": ""Roboto", sans-serif",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": "16px",
+      },
+    },
+    "medium": {
+      "bold": {
+        "fontFamily": ""Roboto", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "lineHeight": "24px",
+      },
+      "medium": {
+        "fontFamily": ""Roboto", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": "24px",
+      },
+      "regular": {
+        "fontFamily": ""Roboto", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": "24px",
+      },
+    },
+    "small": {
+      "bold": {
+        "fontFamily": ""Roboto", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": 700,
+        "lineHeight": "22px",
+      },
+      "medium": {
+        "fontFamily": ""Roboto", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": 500,
+        "lineHeight": "22px",
+      },
+      "regular": {
+        "fontFamily": ""Roboto", sans-serif",
+        "fontSize": "14px",
+        "fontWeight": 400,
+        "lineHeight": "22px",
+      },
+    },
+  },
+  "Code": {
+    "regular": {
+      "fontFamily": ""Roboto Mono", monospace",
+      "fontSize": "14px",
+      "fontWeight": 400,
+      "lineHeight": "20px",
+    },
+  },
+  "H1": {
+    "medium": {
+      "fontFamily": ""Roboto", sans-serif",
+      "fontSize": "32px",
+      "fontWeight": 500,
+      "lineHeight": "40px",
+    },
+  },
+  "H2": {
+    "medium": {
+      "fontFamily": ""Roboto", sans-serif",
+      "fontSize": "24px",
+      "fontWeight": 500,
+      "lineHeight": "30px",
+    },
+  },
+  "H3": {
+    "medium": {
+      "fontFamily": ""Roboto", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": 500,
+      "lineHeight": "24px",
+    },
+    "regular": {
+      "fontFamily": ""Roboto", sans-serif",
+      "fontSize": "20px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+    },
+  },
+  "H4": {
+    "medium": {
+      "fontFamily": ""Roboto", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": 500,
+      "lineHeight": "24px",
+    },
+    "regular": {
+      "fontFamily": ""Roboto", sans-serif",
+      "fontSize": "18px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+    },
+  },
+  "H5": {
+    "bold": {
+      "fontFamily": ""Roboto", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "lineHeight": "24px",
+    },
+    "medium": {
+      "fontFamily": ""Roboto", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 500,
+      "lineHeight": "24px",
+    },
+    "regular": {
+      "fontFamily": ""Roboto", sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "lineHeight": "24px",
+    },
+  },
+}
+`;
 
 exports[`Typography validation Snapshot FontFamily 1`] = `
 {

@@ -1,4 +1,60 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Sizes validation > Snapshot BorderSize 1`] = `
+{
+  "bold": "6px",
+  "extraBold": "8px",
+  "medium": "4px",
+  "regular": "2px",
+  "thin": "1px",
+}
+`;
+
+exports[`Sizes validation > Snapshot Rounding 1`] = `
+{
+  "1.5x": "6px",
+  "1x": "4px",
+  "2x": "8px",
+  "4x": "16px",
+}
+`;
+
+exports[`Sizes validation > Snapshot Size 1`] = `
+{
+  "1.5x": "6px",
+  "10x": "40px",
+  "12x": "48px",
+  "16x": "64px",
+  "1x": "4px",
+  "24x": "96px",
+  "2x": "8px",
+  "32x": "128px",
+  "3x": "12px",
+  "4.5x": "18px",
+  "4x": "16px",
+  "5x": "20px",
+  "6x": "24px",
+  "7x": "28px",
+  "8x": "32px",
+}
+`;
+
+exports[`Sizes validation > Snapshot Spacing 1`] = `
+{
+  "0.5x": "2px",
+  "1.5x": "6px",
+  "10x": "40px",
+  "12x": "48px",
+  "1x": "4px",
+  "2x": "8px",
+  "3x": "12px",
+  "4x": "16px",
+  "5x": "20px",
+  "6x": "24px",
+  "7x": "28px",
+  "8x": "32px",
+}
+`;
 
 exports[`Sizes validation Snapshot BorderSize 1`] = `
 {
