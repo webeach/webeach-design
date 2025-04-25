@@ -7,7 +7,7 @@
   },
   "description": "Design tokens for WebEach ecosystem",
   "license": "MIT",
-  "packageManager": "yarn@4.7.0",
+  "packageManager": "yarn@4.9.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/webeach/webeach-design"
