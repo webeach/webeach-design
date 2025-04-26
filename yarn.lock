@@ -2027,7 +2027,7 @@ __metadata:
     prettier: "npm:^3.3.3"
     rollup: "npm:^4.24.0"
     rollup-plugin-dts: "npm:^6.1.1"
-    rollup-plugin-node-externals: "npm:^7.1.3"
+    rollup-plugin-node-externals: "npm:^8.0.0"
     semantic-release: "npm:^24.2.0"
     semantic-release-yarn: "npm:^3.0.2"
     stylelint: "npm:^16.16.0"
@@ -6483,12 +6483,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup-plugin-node-externals@npm:^7.1.3":
-  version: 7.1.3
-  resolution: "rollup-plugin-node-externals@npm:7.1.3"
+"rollup-plugin-node-externals@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "rollup-plugin-node-externals@npm:8.0.0"
   peerDependencies:
-    rollup: ^3.0.0 || ^4.0.0
-  checksum: 10c0/79d0a964cb488d442f571dd7ce29c53099ca40a76cb71fd985b9978d52efad31346b11138dced9c974e9881b4a56dce384afc0e6d42d9740cebb58120028a37a
+    rollup: ^4.0.0
+  checksum: 10c0/e6b4778677ebb19852bb7c0024d7fd6bcf4452fa5e870bdee7ac2cd2ab3ceda307419050a2082f76a1dd9dc141bdb179f726b22c0ef1e974fc1c9ebd65a9be95
   languageName: node
   linkType: hard
 
