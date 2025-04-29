@@ -28,5 +28,5 @@ export const colorKeySchema = z
   .string()
   .regex(/^[a-z]+(10|[1-9])$/, 'Invalid color key format')
   .describe(
-    `Color key format: lowercase letters followed by a number from 1 to 10 (e.g., 'primary1', 'secondary10').`,
+    "Color key format: lowercase letters followed by a number from 1 to 10 (e.g., 'primary1', 'secondary10').",
   );
